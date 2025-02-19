@@ -641,6 +641,48 @@ f(10, b=20, c=30, d=40, e=50, f=60)
     L2 = sorted(L, key=by_score_and_name)
     print("按分数和姓名排序:", L2)
   ```
+```python
+# Python的比较规则也可以多级比较，比较的函数，这个具有两个参数，参数的值都是从可迭代对象中取出，此函数必须遵守的规则为，大于则返回1，小于则返回-1，等于则返回0。（虽然Python3不用了，但可以配合cmp_to_key）
+def CanCook(self, product_id):
+    return self.IsGoldSatisfied(product_id) and self.IsRecipeSatisfied(product_id) 
+
+def IsUnlockRecipe(self, product_id):
+    return self.is_unlock[self.product_id2recipe_id[product_id]]
+
+def ProductItemCompare(self, left_product_id, right_product_id):
+    # 未解锁的排后面
+    l_is_unlock = self.IsUnlockRecipe(left_product_id)
+    r_is_unlock = self.IsUnlockRecipe(right_product_id)
+    if l_is_unlock and not r_is_unlock:
+        return -1
+    elif not l_is_unlock and r_is_unlock:
+        return 1
+    
+    # 都解锁了看背包内物品是否满足烹饪条件
+    l_can_cook = self.CanCook(left_product_id)
+    r_can_cook = self.CanCook(right_product_id)
+
+    if l_can_cook and not r_can_cook:
+        return -1
+    elif not l_can_cook and r_can_cook:
+        return 1
+    
+    return 0
+# 使用key=lambda 的例子
+def _SortProductItemList(self):
+    self.sorted_products_id_list = sorted(
+        self.sorted_products_id_list,
+        key=lambda x: (not self.IsUnlockRecipe(x), not self.CanCook(x))
+    )
+
+# 使用cmp_to_key()的例子
+def _SortProductItemList(self):
+    self.sorted_products_id_list = sorted(
+        self.sorted_products_id_list,
+        key=cmp_to_key(self.ProductItemCompare)
+    )
+```
+注意`key=..`这里是传入一个函数对象，该函数对象不需要返回布尔类型。相反，它返回的是一个可排序的值，这个值将作为排序的依据。也就是说，key 函数从每个元素中提取一个值，Python 使用这些值来决定排序的顺序。多级排序的时候，返回的值是一个元组，第一个元素是排序的依据，第二个元素是排序的依据，以此类推。
   
 
 ## Python 装饰器
