@@ -1,0 +1,14 @@
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\bin\Debug\net8.0\CSahrp_study_B.exe
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\bin\Debug\net8.0\CSahrp_study_B.deps.json
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\bin\Debug\net8.0\CSahrp_study_B.runtimeconfig.json
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\bin\Debug\net8.0\CSahrp_study_B.dll
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\bin\Debug\net8.0\CSahrp_study_B.pdb
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\CSahrp_study_B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\CSahrp_study_B.AssemblyInfoInputs.cache
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\CSahrp_study_B.AssemblyInfo.cs
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\CSahrp_study_B.csproj.CoreCompileInputs.cache
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\CSahrp_study_B.dll
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\refint\CSahrp_study_B.dll
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\CSahrp_study_B.pdb
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\CSahrp_study_B.genruntimeconfig.cache
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\CSahrp_study_B\obj\Debug\net8.0\ref\CSahrp_study_B.dll

@@ -1,0 +1,14 @@
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\bin\Debug\net8.0\OneEndProject.exe
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\bin\Debug\net8.0\OneEndProject.deps.json
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\bin\Debug\net8.0\OneEndProject.runtimeconfig.json
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\bin\Debug\net8.0\OneEndProject.dll
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\bin\Debug\net8.0\OneEndProject.pdb
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\OneEndProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\OneEndProject.AssemblyInfoInputs.cache
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\OneEndProject.AssemblyInfo.cs
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\OneEndProject.csproj.CoreCompileInputs.cache
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\OneEndProject.dll
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\refint\OneEndProject.dll
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\OneEndProject.pdb
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\OneEndProject.genruntimeconfig.cache
+C:\Users\aweihou\Desktop\Unity_Study\CSharpStudy\OneEndProject\obj\Debug\net8.0\ref\OneEndProject.dll

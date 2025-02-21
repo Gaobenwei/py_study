@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CSahrp_study_B/1.0.0": {
+        "runtime": {
+          "CSahrp_study_B.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSahrp_study_B/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
