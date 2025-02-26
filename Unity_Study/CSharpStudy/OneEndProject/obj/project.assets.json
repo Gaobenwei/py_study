@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aweihou\\Desktop\\Unity_Study\\CSharpStudy\\OneEndProject\\OneEndProject.csproj",
+      "projectUniqueName": "G:\\weekone\\Unity_Study\\CSharpStudy\\OneEndProject\\OneEndProject.csproj",
       "projectName": "OneEndProject",
-      "projectPath": "C:\\Users\\aweihou\\Desktop\\Unity_Study\\CSharpStudy\\OneEndProject\\OneEndProject.csproj",
+      "projectPath": "G:\\weekone\\Unity_Study\\CSharpStudy\\OneEndProject\\OneEndProject.csproj",
       "packagesPath": "C:\\Users\\aweihou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aweihou\\Desktop\\Unity_Study\\CSharpStudy\\OneEndProject\\obj\\",
+      "outputPath": "G:\\weekone\\Unity_Study\\CSharpStudy\\OneEndProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "G:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

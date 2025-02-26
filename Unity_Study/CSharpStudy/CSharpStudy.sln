@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneEndProject", "OneEndProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSahrp_study_B", "CSahrp_study_B\CSahrp_study_B.csproj", "{905FA177-CC5E-482D-859C-15959962D294}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoEndProject", "TwoEndProject\TwoEndProject.csproj", "{3BCF9979-9DDD-470D-A0B1-DC8D4208230D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_opp", "CSharp_opp\CSharp_opp.csproj", "{79073F13-0B4C-4A0B-9441-E21BB29BB1A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{905FA177-CC5E-482D-859C-15959962D294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{905FA177-CC5E-482D-859C-15959962D294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{905FA177-CC5E-482D-859C-15959962D294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCF9979-9DDD-470D-A0B1-DC8D4208230D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCF9979-9DDD-470D-A0B1-DC8D4208230D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCF9979-9DDD-470D-A0B1-DC8D4208230D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCF9979-9DDD-470D-A0B1-DC8D4208230D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79073F13-0B4C-4A0B-9441-E21BB29BB1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79073F13-0B4C-4A0B-9441-E21BB29BB1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79073F13-0B4C-4A0B-9441-E21BB29BB1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79073F13-0B4C-4A0B-9441-E21BB29BB1A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

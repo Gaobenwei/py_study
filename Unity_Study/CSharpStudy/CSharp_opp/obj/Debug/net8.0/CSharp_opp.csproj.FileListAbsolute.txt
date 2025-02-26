@@ -1,0 +1,15 @@
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\bin\Debug\net8.0\CSharp_opp.exe
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\bin\Debug\net8.0\CSharp_opp.deps.json
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\bin\Debug\net8.0\CSharp_opp.runtimeconfig.json
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\bin\Debug\net8.0\CSharp_opp.dll
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\bin\Debug\net8.0\CSharp_opp.pdb
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.GeneratedMSBuildEditorConfig.editorconfig
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.AssemblyInfoInputs.cache
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.AssemblyInfo.cs
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.csproj.CoreCompileInputs.cache
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.sourcelink.json
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.dll
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\refint\CSharp_opp.dll
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.pdb
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\CSharp_opp.genruntimeconfig.cache
+G:\weekone\Unity_Study\CSharpStudy\CSharp_opp\obj\Debug\net8.0\ref\CSharp_opp.dll

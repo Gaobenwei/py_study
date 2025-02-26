@@ -850,9 +850,47 @@ def f2():
 f1()
 f2()
 ```
+### 装饰器执行顺序
+可以看这个例子：
+```python
+@BaiyuDecorator_1
+@BaiyuDecorator_2
+@BaiyuDecorator_3
+def baiyu():
+    print("我是攻城狮白玉")
+```
+> baiyu = BaiyuDecorator_1 (BaiyuDecorator_2 (BaiyuDecorator_3(baiyu)))
+这样顺序就清楚了，：**在执行的时候先执行原函数的功能，然后再由里到外依次执行装饰器的内容**
+### 一个添加属性也添加功能的装饰器举例
+```python
+def counting_decorator(initial_count=0):
+    def decorator(func):
+        func.count = initial_count  # 初始化计数器
+
+        def wrapper(*args, **kwargs):
+            print("Before the function call")
+            result = func(*args, **kwargs)  # 调用原函数
+            wrapper.count += 1  # 计数器加1
+            print("After the function call")
+            return result
+        wrapper.count = func.count
+        return wrapper
+
+    return decorator
 
 
+@counting_decorator(initial_count=5)  # 可以指定初始计数值
+def hello_world():
+    print("hello world")
+# counting_decorator(5)(hello_world)()
 
+# 调用函数
+hello_world()  # 输出: Before the function call, hello world, After the function call
+print(f"Current count: {hello_world.count}")  # 输出: Current count: 6
+
+hello_world()  # 输出: Before the function call, hello world, After the function call
+print(f"Current count: {hello_world.count}")  # 输出: Current count: 7
+```
 ### 类装饰器
 除了函数装饰器，Python 还支持类装饰器。类装饰器是包含 __call__ 方法的类，它接受一个函数作为参数，并返回一个新的函数。
 ```python
@@ -870,8 +908,43 @@ class DecoratorClass:
 def my_function():
     pass
 ```
+**带参数的类装饰器**：当装饰器有参数的时候，`__init__()`函数就不能传输func(func代表药装饰的函数),而func是在`__call__()`函数中传入的
+```python
+class BaiyuDecorator:
+    def __init__(self, arg1, arg2):  # init()方法里面的参数都是装饰器的参数
+        print('执行类Decorator的__init__()方法')
+        self.arg1 = arg1
+        self.arg2 = arg2
+ 
+    def __call__(self, func):  # 因为装饰器带了参数，所以接收传入函数变量的位置是这里
+        print('执行类Decorator的__call__()方法')
+ 
+        def baiyu_warp(*args):  # 这里装饰器的函数名字可以随便命名，只要跟return的函数名相同即可
+            print('执行wrap()')
+            print('装饰器参数：', self.arg1, self.arg2)
+            print('执行' + func.__name__ + '()')
+            func(*args)
+            print(func.__name__ + '()执行完毕')
+ 
+        return baiyu_warp
+ 
+ 
+@BaiyuDecorator('Hello', 'Baiyu')
+def example(a1, a2, a3):
+    print('传入example()的参数：', a1, a2, a3)
+ 
+ 
+if __name__ == '__main__':
+    print('准备调用example()')
+    example('Baiyu', 'Happy', 'Coder')
+    print('测试代码执行完毕')
+```
+> 这里注意观察一下输出的顺序，在调用之前就会输出__init__()等信息，带参数的和不带参数的都观察一下。
+
+
 ## 函数可以作为返回结果，就是一个函数对象，再进行调用才会返回结果
 ### 闭包
+[简答闭包教学](https://blog.csdn.net/Saki_Python/article/details/136166366)
 ```python
 
 def lazy_sum(*args):
@@ -1468,7 +1541,7 @@ class Chain(object):
     def __init__(self,path=""):
         self._path=path
     def __getattr__(self,path):
-        return Chain("%s%s" % (self._path,path))
+        return Chain("%s/%s" % (self._path,path))
     def __str__(self):
         return self._path
     __repr__=__str__

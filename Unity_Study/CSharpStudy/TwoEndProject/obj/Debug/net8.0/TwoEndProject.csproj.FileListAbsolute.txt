@@ -1,0 +1,15 @@
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\bin\Debug\net8.0\TwoEndProject.exe
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\bin\Debug\net8.0\TwoEndProject.deps.json
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\bin\Debug\net8.0\TwoEndProject.runtimeconfig.json
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\bin\Debug\net8.0\TwoEndProject.dll
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\bin\Debug\net8.0\TwoEndProject.pdb
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.GeneratedMSBuildEditorConfig.editorconfig
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.AssemblyInfoInputs.cache
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.AssemblyInfo.cs
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.csproj.CoreCompileInputs.cache
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.sourcelink.json
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.dll
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\refint\TwoEndProject.dll
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.pdb
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\TwoEndProject.genruntimeconfig.cache
+G:\weekone\Unity_Study\CSharpStudy\TwoEndProject\obj\Debug\net8.0\ref\TwoEndProject.dll

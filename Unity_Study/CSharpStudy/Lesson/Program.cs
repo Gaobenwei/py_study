@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 using System;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 namespace Lesson
 {
@@ -110,360 +111,586 @@ namespace Lesson
     //};
 }
 
-namespace Lesson_B_1
+//namespace Lesson_B_1
+//{
+
+//    enum E_QQType
+//    {
+//        /// <summary>
+//        /// QQ状态
+//        /// </summary>
+//        OnLine,
+//        Leave,
+//        Busy,
+//        Invisible,
+//    }
+
+//    enum E_CafeType
+//    {
+//        /// <summary>
+//        /// 中杯
+//        /// </summary>
+//        M,
+//        /// <summary>
+//        /// 大杯
+//        /// </summary>
+//        B,
+//        /// <summary>
+//        /// 超大杯
+//        /// </summary>
+//        S,
+//    }
+
+//    enum E_Sex
+//    {
+//        Man,
+//        Woman,
+//    }
+//    enum E_Occupation
+//    {
+//        /// <summary>
+//        /// 战士
+//        /// </summary>
+//        Warrior,
+//        /// <summary>
+//        /// 猎人
+//        /// </summary>
+//        Hunter,
+//        /// <summary>
+//        /// 法师
+//        /// </summary>
+//        Master,
+//    }
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("枚举，练习");
+//            #region enum 练习1
+//            //定义QQ状态的枚举，并提示用户选择一个在线状态，我们接受输入的数字，并将其转换成枚举类型
+//            //try
+//            //{
+//            //    Console.WriteLine("请输入QQ的状态(0在线，1离开，2忙，3隐身)");
+//            //    int type = int.Parse(Console.ReadLine());
+//            //    E_QQType qqType = (E_QQType)type;
+//            //    Console.WriteLine(qqType);
+//            //}
+//            //catch
+//            //{
+//            //    Console.WriteLine("请输入数字");
+//            //}
+//            #endregion
+
+//            #region enum 练习2
+//            //try
+//            //{
+//            //    Console.WriteLine("请输入咖啡杯型(0中杯，1大杯，2超大杯)");
+//            //    int cafeType = int.Parse(Console.ReadLine());
+//            //    E_CafeType cType = (E_CafeType)cafeType;
+//            //    switch(cType)
+//            //    {
+//            //        case E_CafeType.M:
+//            //            Console.WriteLine("中杯");
+//            //            break;
+//            //        case E_CafeType.B:
+//            //            Console.WriteLine("大杯");
+//            //            break;
+//            //        case E_CafeType.S:
+//            //            Console.WriteLine("超大杯");
+//            //            break;
+//            //        default:
+//            //            Console.WriteLine("输入正确类型");
+//            //            break;
+//            //    }
+//            //}
+//            //catch
+//            //{
+//            //    Console.WriteLine("请输入数字");
+//            //}
+//            #endregion
+
+//            #region enum 练习3
+//            //try
+//            //{
+//            //    Console.WriteLine("请选择性别（男0 女1）");
+//            //    E_Sex sex = (E_Sex)int.Parse(Console.ReadLine());
+//            //    string sexStr = "";
+//            //    int atk = 0;
+//            //    int def = 0;
+//            //    switch (sex)
+//            //    {
+//            //        case E_Sex.Man:
+//            //            sexStr = "男性";
+//            //            atk += 50;
+//            //            def += 100;
+//            //            break;
+//            //        case E_Sex.Woman:
+//            //            sexStr = "女性";
+//            //            atk += 150;
+//            //            def += 20;
+//            //            break;
+//            //    }
+//            //    Console.WriteLine("请选择职业（战士0 猎人1 法师2）");
+//            //    E_Occupation o = (E_Occupation)int.Parse(Console.ReadLine());
+//            //    string skill = "";
+//            //    string occupation = "";
+//            //    switch (o)
+//            //    {
+//            //        case E_Occupation.Warrior:
+//            //            atk += 20;
+//            //            def += 100;
+//            //            skill = "冲锋";
+//            //            occupation = "战士";
+//            //            break;
+//            //        case E_Occupation.Hunter:
+//            //            atk += 120;
+//            //            def += 30;
+//            //            skill = "假死";
+//            //            occupation = "猎人";
+//            //            break;
+//            //        case E_Occupation.Master:
+//            //            atk += 200;
+//            //            def += 10;
+//            //            skill = "奥术冲击";
+//            //            occupation = "法师";
+//            //            break;
+//            //        default:
+//            //            break;
+//            //    }
+
+//            //    Console.WriteLine("你选了\"{0}{1}\",攻击力：{2},防御力{3},职业技能：{4}", sexStr, occupation, atk, def, skill);
+//            //}
+//            //catch
+//            //{
+//            //    Console.WriteLine("请输入数字");
+//            //}
+//            #endregion
+
+//            #region 数组练习 1
+//            //int[] array = new int[10];
+//            //Random r = new Random();
+//            //for (int i = 0; i < array.Length; i++)
+//            //{
+//            //    array[i] = r.Next(0, 101);
+//            //    Console.WriteLine(array[i]);
+//            //}
+//            //Console.WriteLine("倒序输出");
+//            //for (int i = 0; i < array.Length / 2; i++)
+//            //{
+//            //    int temp = array[i];
+//            //    array[i] = array[array.Length - 1 - i];
+//            //    array[array.Length - 1 - i] = temp;
+//            //}
+//            //for (int i = 0; i < array.Length; i++)
+//            //{
+//            //    Console.WriteLine(array[i]);
+//            //}
+//            #endregion
+//            #region 数组练习 2
+//            //int[] array = new int[10];
+//            //try
+//            //{
+//            //    int min = 0;
+//            //    int max = 0;
+//            //    int sum = 0;
+//            //    int avg = 0;
+//            //    for (int i = 0; i < array.Length; i++)
+//            //    {
+//            //        Console.WriteLine("请输入第{0}位同学的成绩", i + 1);
+//            //        array[i] = int.Parse(Console.ReadLine());
+//            //        //第一次进来 min max 没有任何意义 所以第一次可以就认为该成绩即使 最高分也是最低分
+//            //        if (i == 0)
+//            //        {
+//            //            min = array[i];
+//            //            max = array[i];
+//            //        }
+//            //        else
+//            //        {
+//            //            //只有 除了第一次以外  才来进行 大小值的判断 
+//            //            if (min > array[i])
+//            //            {
+//            //                min = array[i];
+//            //            }
+//            //            if (max < array[i])
+//            //            {
+//            //                max = array[i];
+//            //            }
+//            //        }
+//            //        sum += array[i];
+//            //    }
+//            //    avg = sum / array.Length;
+
+//            //    Console.WriteLine("最高分{0}最低分{1}平均分{2}", max, min, avg);
+//            //}
+//            //catch
+//            //{
+//            //    Console.WriteLine("请输入数字");
+//            //}
+//            #endregion
+//            #region 数组练习 3
+//            //string[] strs = new string[25];
+//            //for (int i = 0; i < strs.Length; i++)
+//            //{
+//            //    strs[i] = i % 2 == 0 ? "■" : "□";
+//            //    //if( i % 2 == 0 )
+//            //    //{
+//            //    //    strs[i] = "■";
+//            //    //}
+//            //    //else
+//            //    //{
+//            //    //    strs[i] = "□";
+//            //    //}
+//            //}
+
+//            //for(int i=0;i<strs.Length;++i)
+//            //{
+//            //    if(i% 5 == 0)
+//            //    {
+//            //        Console.WriteLine();
+//            //    }
+//            //    Console.Write(strs[i]+" ");
+//            //}
+//            #endregion
+
+//            #region 二维数组练习 4
+//            //将1到10000赋值给一个二维数组（100行100列） 
+//            //int[,] array = new int[100, 100];
+//            //int index = 1;
+//            //for (int i = 0; i < array.GetLength(0); i++)
+//            //{
+//            //    for (int j = 0; j < array.GetLength(1); j++)
+//            //    {
+//            //        array[i, j] = index;
+//            //        ++index;
+//            //        Console.Write(array[i, j] + " ");
+//            //    }
+//            //    Console.WriteLine();
+//            //}
+
+//            //将二维数组（4行4列）的右上半部分置零（元素随机1~100）
+//            //int[,] array = new int[4, 4];
+//            //Random r = new Random();
+//            //for(int i=0;i<array.GetLength(0);++i)
+//            //{
+//            //    for(int j=0;j<array.GetLength(1); ++j)
+//            //    {
+//            //        if (i <= 1 && j > 1)
+//            //        {
+//            //            array[i, j] = 0;
+//            //        }
+//            //        else
+//            //        {
+//            //            array[i, j] = r.Next(1, 101);
+//            //        }
+//            //        Console.Write(array[i, j] + " ");
+//            //    }
+//            //    Console.WriteLine();
+//            //}
+
+//            //求二维数组（3行3列）的对角线元素的和（元素随机1~10）
+//            //int[,] array = new int[3, 3];
+//            //Random r = new Random();
+//            //int sum = 0;
+//            //for (int i = 0; i < array.GetLength(0); i++)
+//            //{
+//            //    for (int j = 0; j < array.GetLength(1); j++)
+//            //    {
+//            //        array[i, j] = r.Next(1, 11);
+//            //        //对角线 元素 满足的条件
+//            //        if (i == j || i + j == 2)
+//            //        {
+//            //            sum += array[i, j];
+//            //        }
+//            //        Console.Write(array[i, j] + " ");
+//            //    }
+//            //    Console.WriteLine();
+//            //}
+//            //Console.WriteLine(sum);
+
+//            //求二维数组（5行5列）中最大元素值及其行列号（元素随机1~500）
+//            //int[,] array = new int[5, 5];
+//            //Random r = new Random();
+//            ////就是记录 最大值的 行列号
+//            //int maxI = 0;
+//            //int maxJ = 0;
+//            //for (int i = 0; i < array.GetLength(0); i++)
+//            //{
+//            //    for (int j = 0; j < array.GetLength(1); j++)
+//            //    {
+//            //        array[i, j] = r.Next(1, 501);
+//            //        Console.Write(array[i, j] + " ");
+//            //        //找最大值
+//            //        if (array[maxI, maxJ] < array[i, j])
+//            //        {
+//            //            maxI = i;
+//            //            maxJ = j;
+//            //        }
+//            //    }
+//            //    Console.WriteLine();
+//            //}
+
+//            //Console.WriteLine("最大值为{0}，行{1}列{2}", array[maxI, maxJ], maxI, maxJ);
+
+//            //int[,] array = new int[5, 5] { { 0,0,0,0,0},
+//            //                               { 0,0,0,0,0},
+//            //                               { 0,0,1,1,0},
+//            //                               { 0,0,0,0,0},
+//            //                               { 0,0,0,0,0}};
+//            //bool[] hang = new bool[5];
+//            //bool[] lie = new bool[5];
+//            //for(int i=0;i<array.GetLength(0);++i)
+//            //{
+//            //    for(int j=0;j<array.GetLength(1); ++j)
+//            //    {
+//            //        if (array[i, j] == 1)
+//            //        {
+//            //            hang[i] = true;
+//            //            lie[j] = true;
+//            //        }
+//            //        Console.Write(array[i, j] + " ");
+//            //    }
+//            //    Console.WriteLine();
+//            //}
+//            //Console.WriteLine("------------------");
+//            //for(int i=0;i<array.GetLength(0);i++)
+//            //{
+//            //    for(int j=0;j<array.GetLength(1);++j)
+//            //    {
+//            //        if (hang[i] || lie[j])
+//            //        {
+//            //            array[i, j] = 1;
+//            //        }
+//            //        Console.Write(array[i, j] + " ");
+//            //    }
+//            //    Console.WriteLine();
+//            //}
+//            #endregion
+//        }
+//    }
+//}
+
+namespace Struct_1
 {
-
-    enum E_QQType
+    struct Rect
     {
-        /// <summary>
-        /// QQ状态
-        /// </summary>
-        OnLine,
-        Leave,
-        Busy,
-        Invisible,
-    }
+        public float w;
+        public float h;
+        public float area;
+        public float perimeter;
 
-    enum E_CafeType
-    {
-        /// <summary>
-        /// 中杯
-        /// </summary>
-        M,
-        /// <summary>
-        /// 大杯
-        /// </summary>
-        B,
-        /// <summary>
-        /// 超大杯
-        /// </summary>
-        S,
+        public Rect(float w,float h)
+        {
+            this.w = w;
+            this.h = h;
+            this.area = w * h;
+            this.perimeter = 2 * (w + h);
+        }
+        public void writeinfo()
+        {
+            Console.WriteLine("宽{0}高{1}面积{2}周长{3}", w, h, area, perimeter);
+        }
     }
 
-    enum E_Sex
+    struct OutMan
     {
-        Man,
-        Woman,
+        public string name;
+        public int atk;
+        public int def;
+        public int hp;
+        public OutMan(string name, int atk, int def, int hp)
+        {
+            this.name = name;
+            this.atk = atk;
+            this.def = def;
+            this.hp = hp;
+        }
+        public void Atk(ref Struct_1.Boss monster)
+        {
+            monster.hp-=atk - monster.def;
+        }
     }
-    enum E_Occupation
+
+    struct Boss
     {
-        /// <summary>
-        /// 战士
-        /// </summary>
-        Warrior,
-        /// <summary>
-        /// 猎人
-        /// </summary>
-        Hunter,
-        /// <summary>
-        /// 法师
-        /// </summary>
-        Master,
+        public string name;
+        public int atk;
+        public int def;
+        public int hp;
+
+        public Boss(string name, int atk, int def, int hp)
+        {
+            this.name = name;
+            this.atk = atk;
+            this.def = def;
+            this.hp = hp;
+        }
+        public void Atk(ref OutMan outman)
+        {
+            outman.hp-=this.atk - outman.def;
+        }
     }
+
+    
     class Program
     {
+        static int[] Sort_(int[] array, bool isAscend)
+        {
+            bool isSort = false;
+            for (int i = 1; i <= array.Length; ++i)
+            {
+                isSort = false;
+                for (int j = 0; j < array.Length - i; ++j)
+                {
+                    bool ordereed = isAscend ? array[j] > array[j + 1] : array[j] < array[j + 1];
+                    if (ordereed)
+                    {
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
+                        isSort = true;
+                    }
+                }
+                if (!isSort)
+                {
+                    break;
+                }
+            }
+            return array;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("枚举，练习");
-            #region enum 练习1
-            //定义QQ状态的枚举，并提示用户选择一个在线状态，我们接受输入的数字，并将其转换成枚举类型
-            //try
+            Rect rect= new Rect(10,20); 
+            rect.writeinfo();
+            Rect[] rects = new Rect[10];
+            for(int i=0;i<10;++i)
+            {
+                rects[i] = new Rect(i, i + 5);
+                rects[i].writeinfo();
+            }
+            int[] array = new int[20];
+            Random r=new Random();
+            for(int i = 0; i < array.Length; ++i)
+            {
+                array[i] = r.Next(0, 101);
+                Console.Write(array[i] + " ");
+            }
+            //冒泡排序
+            bool isSort = false;
+            for (int i=1;i<=array.Length;++i)
+            {
+                isSort = false;
+                for(int j=0;j<array.Length-i;++j)
+                {
+                    if (array[j] < array[j + 1])
+                    {
+                        int temp = array[j];
+                        array[j] = array[j + 1];
+                        array[j + 1] = temp;
+                        isSort = true;
+                    }
+                }
+                if(!isSort)
+                {
+                    break;
+                }
+            }
+
+            Console.WriteLine();
+            for (int i = 0; i < array.Length; ++i)
+            {
+                Console.Write(array[i] + " ");
+            }
+            Console.WriteLine(":*-*-*-*-:");
+            int[] array2 = new int[] { 1,2,6,9,3,4,5,7,2,2,5,8,55,2,58,8};
+            //Sort_(array2, true);
+            Sort_(array2, false);
+            for (int i = 0; i < array2.Length; ++i)
+            {
+                Console.Write(array2[i] + " ");
+            }
+            Console.WriteLine("*------------*");
+            #region 选择排序 1 中间变量 记录最小值的下标，每轮开始，默认最小值的下标为当前轮的第一个元素下标
+            //for (int m=0;m<array2.Length-1;++m)
             //{
-            //    Console.WriteLine("请输入QQ的状态(0在线，1离开，2忙，3隐身)");
-            //    int type = int.Parse(Console.ReadLine());
-            //    E_QQType qqType = (E_QQType)type;
-            //    Console.WriteLine(qqType);
+            //    int index_ = m;
+            //    for(int n=m+1;n<array2.Length;++n)
+            //    {
+            //        if (array2[index_] > array2[n])
+            //        {
+            //            index_ = n;
+            //        }
+            //    }
+            //    if(index_!=m)
+            //    {
+            //        int temp = array2[m];
+            //        array2[m] = array2[index_];
+            //        array2[index_] = temp;
+            //    }    
             //}
-            //catch
+
+            //for (int i = 0; i < array2.Length; ++i)
             //{
-            //    Console.WriteLine("请输入数字");
+            //    Console.Write(array2[i] + " ");
             //}
+
+            int[] array_xuanze = new int[20];
+            Random r_xuanze =new Random();
+            for (int i=0;i<20;++i)
+            {
+                array_xuanze[i] = r_xuanze.Next(0, 101);
+            }
+            for (int i = 0; i < array_xuanze.Length; ++i)
+            {
+                Console.Write(array_xuanze[i] + " ");
+            }
+            Console.WriteLine("\n升序选择");
+
+            for (int m=0;m<array_xuanze.Length;++m)
+            {
+                int index_ = 0;
+                for(int n=1;n<array_xuanze.Length-m;++n)
+                {
+                    if (array_xuanze[index_]< array_xuanze[n])
+                    {
+                        index_ = n;
+                    }
+                }
+                if (index_ != array_xuanze.Length - 1 - m)
+                {
+                    int temp = array_xuanze[index_];
+                    array_xuanze[index_] = array_xuanze[array_xuanze.Length - 1 - m];
+                    array_xuanze[array_xuanze.Length - 1 - m] = temp; 
+                }
+            }
+            for (int i = 0; i < array_xuanze.Length; ++i)
+            {
+                Console.Write(array_xuanze[i] + " ");
+            }
+            Console.WriteLine("\n降序选择");
+            for (int m = 0; m < array_xuanze.Length; ++m)
+            {
+                int index_ = 0;
+                for (int n = 1; n < array_xuanze.Length - m; ++n)
+                {
+                    if (array_xuanze[index_] > array_xuanze[n])
+                    {
+                        index_ = n;
+                    }
+                }
+                if (index_ != array_xuanze.Length - 1 - m)
+                {
+                    int temp = array_xuanze[index_];
+                    array_xuanze[index_] = array_xuanze[array_xuanze.Length - 1 - m];
+                    array_xuanze[array_xuanze.Length - 1 - m] = temp;
+                }
+            }
+
+            for (int i = 0; i < array_xuanze.Length; ++i)
+            {
+                Console.Write(array_xuanze[i] + " ");
+            }
             #endregion
 
-            #region enum 练习2
-            //try
-            //{
-            //    Console.WriteLine("请输入咖啡杯型(0中杯，1大杯，2超大杯)");
-            //    int cafeType = int.Parse(Console.ReadLine());
-            //    E_CafeType cType = (E_CafeType)cafeType;
-            //    switch(cType)
-            //    {
-            //        case E_CafeType.M:
-            //            Console.WriteLine("中杯");
-            //            break;
-            //        case E_CafeType.B:
-            //            Console.WriteLine("大杯");
-            //            break;
-            //        case E_CafeType.S:
-            //            Console.WriteLine("超大杯");
-            //            break;
-            //        default:
-            //            Console.WriteLine("输入正确类型");
-            //            break;
-            //    }
-            //}
-            //catch
-            //{
-            //    Console.WriteLine("请输入数字");
-            //}
-            #endregion
-
-            #region enum 练习3
-            //try
-            //{
-            //    Console.WriteLine("请选择性别（男0 女1）");
-            //    E_Sex sex = (E_Sex)int.Parse(Console.ReadLine());
-            //    string sexStr = "";
-            //    int atk = 0;
-            //    int def = 0;
-            //    switch (sex)
-            //    {
-            //        case E_Sex.Man:
-            //            sexStr = "男性";
-            //            atk += 50;
-            //            def += 100;
-            //            break;
-            //        case E_Sex.Woman:
-            //            sexStr = "女性";
-            //            atk += 150;
-            //            def += 20;
-            //            break;
-            //    }
-            //    Console.WriteLine("请选择职业（战士0 猎人1 法师2）");
-            //    E_Occupation o = (E_Occupation)int.Parse(Console.ReadLine());
-            //    string skill = "";
-            //    string occupation = "";
-            //    switch (o)
-            //    {
-            //        case E_Occupation.Warrior:
-            //            atk += 20;
-            //            def += 100;
-            //            skill = "冲锋";
-            //            occupation = "战士";
-            //            break;
-            //        case E_Occupation.Hunter:
-            //            atk += 120;
-            //            def += 30;
-            //            skill = "假死";
-            //            occupation = "猎人";
-            //            break;
-            //        case E_Occupation.Master:
-            //            atk += 200;
-            //            def += 10;
-            //            skill = "奥术冲击";
-            //            occupation = "法师";
-            //            break;
-            //        default:
-            //            break;
-            //    }
-
-            //    Console.WriteLine("你选了\"{0}{1}\",攻击力：{2},防御力{3},职业技能：{4}", sexStr, occupation, atk, def, skill);
-            //}
-            //catch
-            //{
-            //    Console.WriteLine("请输入数字");
-            //}
-            #endregion
-
-            #region 数组练习 1
-            //int[] array = new int[10];
-            //Random r = new Random();
-            //for (int i = 0; i < array.Length; i++)
-            //{
-            //    array[i] = r.Next(0, 101);
-            //    Console.WriteLine(array[i]);
-            //}
-            //Console.WriteLine("倒序输出");
-            //for (int i = 0; i < array.Length / 2; i++)
-            //{
-            //    int temp = array[i];
-            //    array[i] = array[array.Length - 1 - i];
-            //    array[array.Length - 1 - i] = temp;
-            //}
-            //for (int i = 0; i < array.Length; i++)
-            //{
-            //    Console.WriteLine(array[i]);
-            //}
-            #endregion
-            #region 数组练习 2
-            //int[] array = new int[10];
-            //try
-            //{
-            //    int min = 0;
-            //    int max = 0;
-            //    int sum = 0;
-            //    int avg = 0;
-            //    for (int i = 0; i < array.Length; i++)
-            //    {
-            //        Console.WriteLine("请输入第{0}位同学的成绩", i + 1);
-            //        array[i] = int.Parse(Console.ReadLine());
-            //        //第一次进来 min max 没有任何意义 所以第一次可以就认为该成绩即使 最高分也是最低分
-            //        if (i == 0)
-            //        {
-            //            min = array[i];
-            //            max = array[i];
-            //        }
-            //        else
-            //        {
-            //            //只有 除了第一次以外  才来进行 大小值的判断 
-            //            if (min > array[i])
-            //            {
-            //                min = array[i];
-            //            }
-            //            if (max < array[i])
-            //            {
-            //                max = array[i];
-            //            }
-            //        }
-            //        sum += array[i];
-            //    }
-            //    avg = sum / array.Length;
-
-            //    Console.WriteLine("最高分{0}最低分{1}平均分{2}", max, min, avg);
-            //}
-            //catch
-            //{
-            //    Console.WriteLine("请输入数字");
-            //}
-            #endregion
-            #region 数组练习 3
-            //string[] strs = new string[25];
-            //for (int i = 0; i < strs.Length; i++)
-            //{
-            //    strs[i] = i % 2 == 0 ? "■" : "□";
-            //    //if( i % 2 == 0 )
-            //    //{
-            //    //    strs[i] = "■";
-            //    //}
-            //    //else
-            //    //{
-            //    //    strs[i] = "□";
-            //    //}
-            //}
-
-            //for(int i=0;i<strs.Length;++i)
-            //{
-            //    if(i% 5 == 0)
-            //    {
-            //        Console.WriteLine();
-            //    }
-            //    Console.Write(strs[i]+" ");
-            //}
-            #endregion
-
-            #region 二维数组练习 4
-            //将1到10000赋值给一个二维数组（100行100列） 
-            //int[,] array = new int[100, 100];
-            //int index = 1;
-            //for (int i = 0; i < array.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < array.GetLength(1); j++)
-            //    {
-            //        array[i, j] = index;
-            //        ++index;
-            //        Console.Write(array[i, j] + " ");
-            //    }
-            //    Console.WriteLine();
-            //}
-
-            //将二维数组（4行4列）的右上半部分置零（元素随机1~100）
-            //int[,] array = new int[4, 4];
-            //Random r = new Random();
-            //for(int i=0;i<array.GetLength(0);++i)
-            //{
-            //    for(int j=0;j<array.GetLength(1); ++j)
-            //    {
-            //        if (i <= 1 && j > 1)
-            //        {
-            //            array[i, j] = 0;
-            //        }
-            //        else
-            //        {
-            //            array[i, j] = r.Next(1, 101);
-            //        }
-            //        Console.Write(array[i, j] + " ");
-            //    }
-            //    Console.WriteLine();
-            //}
-
-            //求二维数组（3行3列）的对角线元素的和（元素随机1~10）
-            //int[,] array = new int[3, 3];
-            //Random r = new Random();
-            //int sum = 0;
-            //for (int i = 0; i < array.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < array.GetLength(1); j++)
-            //    {
-            //        array[i, j] = r.Next(1, 11);
-            //        //对角线 元素 满足的条件
-            //        if (i == j || i + j == 2)
-            //        {
-            //            sum += array[i, j];
-            //        }
-            //        Console.Write(array[i, j] + " ");
-            //    }
-            //    Console.WriteLine();
-            //}
-            //Console.WriteLine(sum);
-
-            //求二维数组（5行5列）中最大元素值及其行列号（元素随机1~500）
-            //int[,] array = new int[5, 5];
-            //Random r = new Random();
-            ////就是记录 最大值的 行列号
-            //int maxI = 0;
-            //int maxJ = 0;
-            //for (int i = 0; i < array.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < array.GetLength(1); j++)
-            //    {
-            //        array[i, j] = r.Next(1, 501);
-            //        Console.Write(array[i, j] + " ");
-            //        //找最大值
-            //        if (array[maxI, maxJ] < array[i, j])
-            //        {
-            //            maxI = i;
-            //            maxJ = j;
-            //        }
-            //    }
-            //    Console.WriteLine();
-            //}
-
-            //Console.WriteLine("最大值为{0}，行{1}列{2}", array[maxI, maxJ], maxI, maxJ);
-
-            //int[,] array = new int[5, 5] { { 0,0,0,0,0},
-            //                               { 0,0,0,0,0},
-            //                               { 0,0,1,1,0},
-            //                               { 0,0,0,0,0},
-            //                               { 0,0,0,0,0}};
-            //bool[] hang = new bool[5];
-            //bool[] lie = new bool[5];
-            //for(int i=0;i<array.GetLength(0);++i)
-            //{
-            //    for(int j=0;j<array.GetLength(1); ++j)
-            //    {
-            //        if (array[i, j] == 1)
-            //        {
-            //            hang[i] = true;
-            //            lie[j] = true;
-            //        }
-            //        Console.Write(array[i, j] + " ");
-            //    }
-            //    Console.WriteLine();
-            //}
-            //Console.WriteLine("------------------");
-            //for(int i=0;i<array.GetLength(0);i++)
-            //{
-            //    for(int j=0;j<array.GetLength(1);++j)
-            //    {
-            //        if (hang[i] || lie[j])
-            //        {
-            //            array[i, j] = 1;
-            //        }
-            //        Console.Write(array[i, j] + " ");
-            //    }
-            //    Console.WriteLine();
-            //}
-            #endregion
         }
     }
 }

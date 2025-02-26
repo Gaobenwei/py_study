@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aweihou\\Desktop\\Unity_Study\\CSharpStudy\\Lesson\\Lesson.csproj",
+      "projectUniqueName": "G:\\weekone\\Unity_Study\\CSharpStudy\\Lesson\\Lesson.csproj",
       "projectName": "Lesson",
-      "projectPath": "C:\\Users\\aweihou\\Desktop\\Unity_Study\\CSharpStudy\\Lesson\\Lesson.csproj",
+      "projectPath": "G:\\weekone\\Unity_Study\\CSharpStudy\\Lesson\\Lesson.csproj",
       "packagesPath": "C:\\Users\\aweihou\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aweihou\\Desktop\\Unity_Study\\CSharpStudy\\Lesson\\obj\\",
+      "outputPath": "G:\\weekone\\Unity_Study\\CSharpStudy\\Lesson\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "G:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

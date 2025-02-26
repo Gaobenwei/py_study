@@ -449,6 +449,7 @@ namespace Lession_Struct
 {
     #region struct
     //结构体 一把写在namespace语句块中
+    //结构体是类似值的形式，函数中想改变结构体的值，需要加ref
     struct Student
     {
         public int age;
@@ -487,6 +488,34 @@ namespace Lession_Struct
             stuw.Speak();
             Student stuw2 = new Student(20);
             stuw2.Speak();
+
+
+            int[] arr = new int[] { 1, 3, 5, 3, 1, 8, 6, 9, 7, 2 };
+            bool issort = false;
+            for (int n = 1; n <= arr.Length; n++)
+            {
+                issort = false;
+                for (int i = 0; i < arr.Length - n; ++i)
+                {
+                    if (arr[i] > arr[i + 1])
+                    {
+                        int temp = arr[i];
+                        arr[i] = arr[i + 1];
+                        arr[i + 1] = temp;
+                        issort = true;
+                    }
+                }
+                if (!issort)
+                {
+                    break;
+                }
+            }
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write(arr[i] + " ");
+            }
+
         }
     }
 }
