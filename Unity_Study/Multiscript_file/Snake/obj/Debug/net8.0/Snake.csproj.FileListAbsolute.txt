@@ -1,0 +1,15 @@
+G:\weekone\Unity_Study\Multiscript_file\Snake\bin\Debug\net8.0\Snake.exe
+G:\weekone\Unity_Study\Multiscript_file\Snake\bin\Debug\net8.0\Snake.deps.json
+G:\weekone\Unity_Study\Multiscript_file\Snake\bin\Debug\net8.0\Snake.runtimeconfig.json
+G:\weekone\Unity_Study\Multiscript_file\Snake\bin\Debug\net8.0\Snake.dll
+G:\weekone\Unity_Study\Multiscript_file\Snake\bin\Debug\net8.0\Snake.pdb
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.AssemblyInfoInputs.cache
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.AssemblyInfo.cs
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.csproj.CoreCompileInputs.cache
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.sourcelink.json
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.dll
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\refint\Snake.dll
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.pdb
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\Snake.genruntimeconfig.cache
+G:\weekone\Unity_Study\Multiscript_file\Snake\obj\Debug\net8.0\ref\Snake.dll

@@ -469,229 +469,547 @@ namespace Lesson
 //    }
 //}
 
-namespace Struct_1
-{
-    struct Rect
-    {
-        public float w;
-        public float h;
-        public float area;
-        public float perimeter;
+//namespace Struct_1
+//{
+//    struct Rect
+//    {
+//        public float w;
+//        public float h;
+//        public float area;
+//        public float perimeter;
 
-        public Rect(float w,float h)
-        {
-            this.w = w;
-            this.h = h;
-            this.area = w * h;
-            this.perimeter = 2 * (w + h);
-        }
-        public void writeinfo()
-        {
-            Console.WriteLine("宽{0}高{1}面积{2}周长{3}", w, h, area, perimeter);
-        }
-    }
+//        public Rect(float w,float h)
+//        {
+//            this.w = w;
+//            this.h = h;
+//            this.area = w * h;
+//            this.perimeter = 2 * (w + h);
+//        }
+//        public void writeinfo()
+//        {
+//            Console.WriteLine("宽{0}高{1}面积{2}周长{3}", w, h, area, perimeter);
+//        }
+//    }
 
-    struct OutMan
-    {
-        public string name;
-        public int atk;
-        public int def;
-        public int hp;
-        public OutMan(string name, int atk, int def, int hp)
-        {
-            this.name = name;
-            this.atk = atk;
-            this.def = def;
-            this.hp = hp;
-        }
-        public void Atk(ref Struct_1.Boss monster)
-        {
-            monster.hp-=atk - monster.def;
-        }
-    }
+//    struct OutMan
+//    {
+//        public string name;
+//        public int atk;
+//        public int def;
+//        public int hp;
+//        public OutMan(string name, int atk, int def, int hp)
+//        {
+//            this.name = name;
+//            this.atk = atk;
+//            this.def = def;
+//            this.hp = hp;
+//        }
+//        public void Atk(ref Struct_1.Boss monster)
+//        {
+//            monster.hp-=atk - monster.def;
+//        }
+//    }
 
-    struct Boss
-    {
-        public string name;
-        public int atk;
-        public int def;
-        public int hp;
+//    struct Boss
+//    {
+//        public string name;
+//        public int atk;
+//        public int def;
+//        public int hp;
 
-        public Boss(string name, int atk, int def, int hp)
-        {
-            this.name = name;
-            this.atk = atk;
-            this.def = def;
-            this.hp = hp;
-        }
-        public void Atk(ref OutMan outman)
-        {
-            outman.hp-=this.atk - outman.def;
-        }
-    }
+//        public Boss(string name, int atk, int def, int hp)
+//        {
+//            this.name = name;
+//            this.atk = atk;
+//            this.def = def;
+//            this.hp = hp;
+//        }
+//        public void Atk(ref OutMan outman)
+//        {
+//            outman.hp-=this.atk - outman.def;
+//        }
+//    }
 
-    
-    class Program
-    {
-        static int[] Sort_(int[] array, bool isAscend)
-        {
-            bool isSort = false;
-            for (int i = 1; i <= array.Length; ++i)
-            {
-                isSort = false;
-                for (int j = 0; j < array.Length - i; ++j)
-                {
-                    bool ordereed = isAscend ? array[j] > array[j + 1] : array[j] < array[j + 1];
-                    if (ordereed)
-                    {
-                        int temp = array[j];
-                        array[j] = array[j + 1];
-                        array[j + 1] = temp;
-                        isSort = true;
-                    }
-                }
-                if (!isSort)
-                {
-                    break;
-                }
-            }
-            return array;
-        }
-        static void Main(string[] args)
-        {
-            Rect rect= new Rect(10,20); 
-            rect.writeinfo();
-            Rect[] rects = new Rect[10];
-            for(int i=0;i<10;++i)
-            {
-                rects[i] = new Rect(i, i + 5);
-                rects[i].writeinfo();
-            }
-            int[] array = new int[20];
-            Random r=new Random();
-            for(int i = 0; i < array.Length; ++i)
-            {
-                array[i] = r.Next(0, 101);
-                Console.Write(array[i] + " ");
-            }
-            //冒泡排序
-            bool isSort = false;
-            for (int i=1;i<=array.Length;++i)
-            {
-                isSort = false;
-                for(int j=0;j<array.Length-i;++j)
-                {
-                    if (array[j] < array[j + 1])
-                    {
-                        int temp = array[j];
-                        array[j] = array[j + 1];
-                        array[j + 1] = temp;
-                        isSort = true;
-                    }
-                }
-                if(!isSort)
-                {
-                    break;
-                }
-            }
 
-            Console.WriteLine();
-            for (int i = 0; i < array.Length; ++i)
-            {
-                Console.Write(array[i] + " ");
-            }
-            Console.WriteLine(":*-*-*-*-:");
-            int[] array2 = new int[] { 1,2,6,9,3,4,5,7,2,2,5,8,55,2,58,8};
-            //Sort_(array2, true);
-            Sort_(array2, false);
-            for (int i = 0; i < array2.Length; ++i)
-            {
-                Console.Write(array2[i] + " ");
-            }
-            Console.WriteLine("*------------*");
-            #region 选择排序 1 中间变量 记录最小值的下标，每轮开始，默认最小值的下标为当前轮的第一个元素下标
-            //for (int m=0;m<array2.Length-1;++m)
-            //{
-            //    int index_ = m;
-            //    for(int n=m+1;n<array2.Length;++n)
-            //    {
-            //        if (array2[index_] > array2[n])
-            //        {
-            //            index_ = n;
-            //        }
-            //    }
-            //    if(index_!=m)
-            //    {
-            //        int temp = array2[m];
-            //        array2[m] = array2[index_];
-            //        array2[index_] = temp;
-            //    }    
-            //}
+//    class Program
+//    {
+//        static int[] Sort_(int[] array, bool isAscend)
+//        {
+//            bool isSort = false;
+//            for (int i = 1; i <= array.Length; ++i)
+//            {
+//                isSort = false;
+//                for (int j = 0; j < array.Length - i; ++j)
+//                {
+//                    bool ordereed = isAscend ? array[j] > array[j + 1] : array[j] < array[j + 1];
+//                    if (ordereed)
+//                    {
+//                        int temp = array[j];
+//                        array[j] = array[j + 1];
+//                        array[j + 1] = temp;
+//                        isSort = true;
+//                    }
+//                }
+//                if (!isSort)
+//                {
+//                    break;
+//                }
+//            }
+//            return array;
+//        }
+//        static void Main(string[] args)
+//        {
+//            Rect rect= new Rect(10,20); 
+//            rect.writeinfo();
+//            Rect[] rects = new Rect[10];
+//            for(int i=0;i<10;++i)
+//            {
+//                rects[i] = new Rect(i, i + 5);
+//                rects[i].writeinfo();
+//            }
+//            int[] array = new int[20];
+//            Random r=new Random();
+//            for(int i = 0; i < array.Length; ++i)
+//            {
+//                array[i] = r.Next(0, 101);
+//                Console.Write(array[i] + " ");
+//            }
+//            //冒泡排序
+//            bool isSort = false;
+//            for (int i=1;i<=array.Length;++i)
+//            {
+//                isSort = false;
+//                for(int j=0;j<array.Length-i;++j)
+//                {
+//                    if (array[j] < array[j + 1])
+//                    {
+//                        int temp = array[j];
+//                        array[j] = array[j + 1];
+//                        array[j + 1] = temp;
+//                        isSort = true;
+//                    }
+//                }
+//                if(!isSort)
+//                {
+//                    break;
+//                }
+//            }
 
-            //for (int i = 0; i < array2.Length; ++i)
-            //{
-            //    Console.Write(array2[i] + " ");
-            //}
+//            Console.WriteLine();
+//            for (int i = 0; i < array.Length; ++i)
+//            {
+//                Console.Write(array[i] + " ");
+//            }
+//            Console.WriteLine(":*-*-*-*-:");
+//            int[] array2 = new int[] { 1,2,6,9,3,4,5,7,2,2,5,8,55,2,58,8};
+//            //Sort_(array2, true);
+//            Sort_(array2, false);
+//            for (int i = 0; i < array2.Length; ++i)
+//            {
+//                Console.Write(array2[i] + " ");
+//            }
+//            Console.WriteLine("*------------*");
+//            #region 选择排序 1 中间变量 记录最小值的下标，每轮开始，默认最小值的下标为当前轮的第一个元素下标
+//            //for (int m=0;m<array2.Length-1;++m)
+//            //{
+//            //    int index_ = m;
+//            //    for(int n=m+1;n<array2.Length;++n)
+//            //    {
+//            //        if (array2[index_] > array2[n])
+//            //        {
+//            //            index_ = n;
+//            //        }
+//            //    }
+//            //    if(index_!=m)
+//            //    {
+//            //        int temp = array2[m];
+//            //        array2[m] = array2[index_];
+//            //        array2[index_] = temp;
+//            //    }    
+//            //}
 
-            int[] array_xuanze = new int[20];
-            Random r_xuanze =new Random();
-            for (int i=0;i<20;++i)
-            {
-                array_xuanze[i] = r_xuanze.Next(0, 101);
-            }
-            for (int i = 0; i < array_xuanze.Length; ++i)
-            {
-                Console.Write(array_xuanze[i] + " ");
-            }
-            Console.WriteLine("\n升序选择");
+//            //for (int i = 0; i < array2.Length; ++i)
+//            //{
+//            //    Console.Write(array2[i] + " ");
+//            //}
 
-            for (int m=0;m<array_xuanze.Length;++m)
-            {
-                int index_ = 0;
-                for(int n=1;n<array_xuanze.Length-m;++n)
-                {
-                    if (array_xuanze[index_]< array_xuanze[n])
-                    {
-                        index_ = n;
-                    }
-                }
-                if (index_ != array_xuanze.Length - 1 - m)
-                {
-                    int temp = array_xuanze[index_];
-                    array_xuanze[index_] = array_xuanze[array_xuanze.Length - 1 - m];
-                    array_xuanze[array_xuanze.Length - 1 - m] = temp; 
-                }
-            }
-            for (int i = 0; i < array_xuanze.Length; ++i)
-            {
-                Console.Write(array_xuanze[i] + " ");
-            }
-            Console.WriteLine("\n降序选择");
-            for (int m = 0; m < array_xuanze.Length; ++m)
-            {
-                int index_ = 0;
-                for (int n = 1; n < array_xuanze.Length - m; ++n)
-                {
-                    if (array_xuanze[index_] > array_xuanze[n])
-                    {
-                        index_ = n;
-                    }
-                }
-                if (index_ != array_xuanze.Length - 1 - m)
-                {
-                    int temp = array_xuanze[index_];
-                    array_xuanze[index_] = array_xuanze[array_xuanze.Length - 1 - m];
-                    array_xuanze[array_xuanze.Length - 1 - m] = temp;
-                }
-            }
+//            int[] array_xuanze = new int[20];
+//            Random r_xuanze =new Random();
+//            for (int i=0;i<20;++i)
+//            {
+//                array_xuanze[i] = r_xuanze.Next(0, 101);
+//            }
+//            for (int i = 0; i < array_xuanze.Length; ++i)
+//            {
+//                Console.Write(array_xuanze[i] + " ");
+//            }
+//            Console.WriteLine("\n升序选择");
 
-            for (int i = 0; i < array_xuanze.Length; ++i)
-            {
-                Console.Write(array_xuanze[i] + " ");
-            }
-            #endregion
+//            for (int m=0;m<array_xuanze.Length;++m)
+//            {
+//                int index_ = 0;
+//                for(int n=1;n<array_xuanze.Length-m;++n)
+//                {
+//                    if (array_xuanze[index_]< array_xuanze[n])
+//                    {
+//                        index_ = n;
+//                    }
+//                }
+//                if (index_ != array_xuanze.Length - 1 - m)
+//                {
+//                    int temp = array_xuanze[index_];
+//                    array_xuanze[index_] = array_xuanze[array_xuanze.Length - 1 - m];
+//                    array_xuanze[array_xuanze.Length - 1 - m] = temp; 
+//                }
+//            }
+//            for (int i = 0; i < array_xuanze.Length; ++i)
+//            {
+//                Console.Write(array_xuanze[i] + " ");
+//            }
+//            Console.WriteLine("\n降序选择");
+//            for (int m = 0; m < array_xuanze.Length; ++m)
+//            {
+//                int index_ = 0;
+//                for (int n = 1; n < array_xuanze.Length - m; ++n)
+//                {
+//                    if (array_xuanze[index_] > array_xuanze[n])
+//                    {
+//                        index_ = n;
+//                    }
+//                }
+//                if (index_ != array_xuanze.Length - 1 - m)
+//                {
+//                    int temp = array_xuanze[index_];
+//                    array_xuanze[index_] = array_xuanze[array_xuanze.Length - 1 - m];
+//                    array_xuanze[array_xuanze.Length - 1 - m] = temp;
+//                }
+//            }
 
-        }
-    }
-}
+//            for (int i = 0; i < array_xuanze.Length; ++i)
+//            {
+//                Console.Write(array_xuanze[i] + " ");
+//            }
+//            #endregion
 
+//        }
+//    }
+//}
+
+
+//namespace Lesson_suoyingqi //索引器
+//{
+//    class IntArray
+//    {
+//        private int[] array;
+//        private int capacity;
+//        private int lenngth;
+//        public IntArray()
+//        {
+//            capacity = 5;
+//            lenngth = 0;
+//            array = new int[capacity];
+//        }
+//        // +
+//        public void Add(int value)
+//        {
+//            //如果要增加就涉及扩容
+//            //扩容就涉及 "搬家"
+//            if (lenngth < capacity)
+//            {
+//                array[lenngth++] = value;
+//            }
+//            else
+//            {
+//                capacity *= 2;
+//                int[] temparray= new int[capacity];
+//                for(int i=0;i< array.Length; ++i)
+//                {
+//                    temparray[i] = array[i];
+//                }
+//                array = temparray;
+//                array[lenngth++] = value;
+//            }
+//        }
+//        //-
+//        public void Remove(int value)
+//        {
+//            //找到 传入值 在哪个位置
+//            for(int i=0;i<lenngth;++i)
+//            {
+//                if (array[i]==value)
+//                {
+//                    this.RemoveAt(i);
+//                    return;
+//                }
+//            }
+//        }
+
+//        public void RemoveAt(int index)
+//        {
+//            if(index <0 || index >=lenngth)
+//            {
+//                Console.WriteLine("传入的索引不合法的，结束");
+//                return;
+//            }
+//            for(int i=index;i<lenngth - 1; ++i)
+//            {
+//                array[i] = array[i + 1];
+//            }
+//            --lenngth;
+//        }
+//        //查+改
+//        public int this[int index]
+//        {
+//            get
+//            {
+//                if(index >= lenngth || index < 0)
+//                {
+//                    Console.WriteLine("索引不合法");
+//                    return -1;
+//                }
+//                return array[index];
+//            }
+//            set
+//            {
+//                if(index >=lenngth || index<0)
+//                {
+//                    Console.WriteLine("索引不合法");
+//                }
+//                array[index]=value;
+//            }
+//        }
+
+//        public int Length
+//        {
+//            get
+//            {
+//                return lenngth;
+//            }
+
+//        }
+
+//    }
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("索引器练习题");
+
+//            IntArray array = new IntArray();
+//            array.Add(100);
+//            array.Add(200);
+//            array.RemoveAt(1);
+//            Console.WriteLine(array.Length);
+//            array.Remove(200);
+//            Console.WriteLine(array[1]);
+//            Console.WriteLine(array.Length);
+//        }
+//    }
+//}
+
+//namespace Lesson7_练习题
+//{
+//    #region 练习题二
+//    //请用静态成员相关知识实现
+//    //一个类对象，在整个应用程序的生命周期中，有且仅会有一个该对象的存在，
+//    //不能在外部实例化，直接通过该类类名就能够得到唯一的对象
+//    class Test
+//    {
+//        private static Test t = new Test();
+//        public int testInt = 100;
+//        public static Test T //一般还是会在第一次访问的时候创建对象，调用 在普通的之前
+//        {
+//            get { return t; }
+//            set { }
+//        }
+
+//        private Test()
+//        {
+//            Console.WriteLine("构造函数");
+//        }
+//    }
+
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("静态成员练习题");
+
+//            Console.WriteLine(Test.T.testInt);
+//        }
+//    }
+//    #endregion
+//}
+
+
+//namespace Lesson8_练习题
+//{
+//    #region 练习题
+//    //写一个用于数学计算的静态类
+//    //该类中提供计算圆面积，圆周长，矩形面积，矩形周长，取一个数的绝对值 等方法
+//    static class MathTool
+//    {
+//        public static float PI = 3.1415926f;
+//        public static float CalcCircleArea(float r)
+//        {
+//            return PI * r * r;
+//        }
+//        public static float CalcCircleLength(float r)
+//        {
+//            return 2 * PI * r;
+//        }
+//        public static float CalcRectArea(float w, float h)
+//        {
+//            return w * h;
+//        }
+//        public static float CalcRectLength(float w, float h)
+//        {
+//            return 2 * w + 2 * h;
+//        }
+//        public static float GetABS(float value)
+//        {
+//            return value >= 0 ? value : -value;
+//        }
+//    }
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Hello World!");
+
+//            Console.WriteLine(MathTool.GetABS(-7));
+//            Console.WriteLine(MathTool.CalcRectLength(2, 3));
+//        }
+//    }
+//    #endregion
+//}
+
+//namespace Lesson9_练习题
+//{
+//    #region 练习题一
+//    //为整形拓展一个求平方的方法
+//    static class Tools
+//    {
+//        public static int Square(this int value)
+//        {
+//            return value * value;
+//        }
+//        public static void KillSelf(this Player player)
+//        {
+//            Console.WriteLine("{0}自杀了", player.name);
+//        }
+//    }
+//    #endregion
+//    #region 练习题二
+//    //写一个玩家类，包含姓名，血量，攻击力，防御力等特征，攻击，移动，受伤等方法
+//    //为该玩家类拓展一个自杀的方法
+//    class Player
+//    {
+//        public string name;
+//        public int hp;
+//        public int atk;
+//        public int def;
+
+//        public void Atk(Player otherPlayer)
+//        {
+
+//        }
+//        public void Move()
+//        {
+
+//        }
+//        public void Wound(Player otherPlayer)
+//        {
+
+//        }
+//    }
+//    #endregion
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("拓展方法练习题");
+
+//            int i = 2;
+//            Console.WriteLine(i.Square());
+
+//            Player p = new Player();
+//            p.name = "小红";
+//            p.KillSelf();
+//        }
+//    }
+//}
+
+//namespace Lesson10_练习题
+//{
+//    #region 练习题一
+//    struct Position
+//    {
+//        public int x;
+//        public int y;
+//        public Position(int x, int y)
+//        {
+//            this.x = x;
+//            this.y = y;
+//        }
+//        public static bool operator==(Position p1, Position p2)
+//        {
+//            if(p1.x == p2.x && p1.y == p2.y)
+//            {
+//                return true;
+//            }
+//            return false;
+//        }
+//        public static bool operator !=(Position p1, Position p2)
+//        {
+//            return !(p1 == p2);
+//        }
+
+//    }
+
+//    class Vector3
+//    {
+//        public int x;
+//        public int y;
+//        public int z;
+//        public Vector3(int x, int y, int z)
+//        {
+//            this.x = x;
+//            this.y = y;
+//            this.z = z;
+//        }
+//        public static Vector3 operator+(Vector3 v1, Vector3 v2)
+//        {
+//            return new Vector3(v1.x + v2.x, v1.y + v2.y, v1.z + v2.z);
+//        }
+//        public static Vector3 operator -(Vector3 v1, Vector3 v2)
+//        {
+//            return new Vector3(v1.x - v2.x, v1.y - v2.y, v1.z - v2.z);
+//        }
+//        public static Vector3 operator *(Vector3 v1, int value)
+//        {
+//            return new Vector3(v1.x * value, v1.y * value, v1.z * value);
+//        }
+//    }
+//    #endregion
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Hello World!");
+//            Position position = new Position(1,2);
+//            Position position2 = new Position(1, 2);
+//            if (position == position2)
+//            {
+//                Console.WriteLine("相等");
+//            }
+//            else
+//            {
+//                Console.WriteLine("不相等");
+//            }
+//            Vector3 v1 = new Vector3(1, 2, 3);
+//            Vector3 v2 = new Vector3(4, 5, 6);
+//            Console.WriteLine((v1 + v2).x);
+//        }
+//    }
+//}

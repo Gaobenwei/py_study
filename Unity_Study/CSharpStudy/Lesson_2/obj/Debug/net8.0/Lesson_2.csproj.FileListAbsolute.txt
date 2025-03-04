@@ -1,0 +1,15 @@
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\bin\Debug\net8.0\Lesson_2.exe
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\bin\Debug\net8.0\Lesson_2.deps.json
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\bin\Debug\net8.0\Lesson_2.runtimeconfig.json
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\bin\Debug\net8.0\Lesson_2.dll
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\bin\Debug\net8.0\Lesson_2.pdb
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.GeneratedMSBuildEditorConfig.editorconfig
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.AssemblyInfoInputs.cache
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.AssemblyInfo.cs
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.csproj.CoreCompileInputs.cache
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.sourcelink.json
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.dll
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\refint\Lesson_2.dll
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.pdb
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\Lesson_2.genruntimeconfig.cache
+G:\weekone\Unity_Study\CSharpStudy\Lesson_2\obj\Debug\net8.0\ref\Lesson_2.dll

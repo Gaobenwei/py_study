@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "G:\\weekone\\Unity_Study\\CSharpStudy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC0260F2-481D-4688-A0C0-58BA754E7A11}|Lesson_2\\Lesson_2.csproj|g:\\weekone\\unity_study\\csharpstudy\\lesson_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC0260F2-481D-4688-A0C0-58BA754E7A11}|Lesson_2\\Lesson_2.csproj|solutionrelative:lesson_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC333496-0DF6-4C7C-AE7B-230C5450654B}|CSharp_opp_4\\CSharp_opp_4.csproj|g:\\weekone\\unity_study\\csharpstudy\\csharp_opp_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC333496-0DF6-4C7C-AE7B-230C5450654B}|CSharp_opp_4\\CSharp_opp_4.csproj|solutionrelative:csharp_opp_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76982606-C63C-4B24-A5F7-E78953CF4DD1}|CSharp_opp_3\\CSharp_opp_3.csproj|g:\\weekone\\unity_study\\csharpstudy\\csharp_opp_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76982606-C63C-4B24-A5F7-E78953CF4DD1}|CSharp_opp_3\\CSharp_opp_3.csproj|solutionrelative:csharp_opp_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76982606-C63C-4B24-A5F7-E78953CF4DD1}|CSharp_opp_3\\CSharp_opp_3.csproj|g:\\weekone\\unity_study\\csharpstudy\\csharp_opp_3\\csharp_opp_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76982606-C63C-4B24-A5F7-E78953CF4DD1}|CSharp_opp_3\\CSharp_opp_3.csproj|solutionrelative:csharp_opp_3\\csharp_opp_3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FA04F0-BA60-4853-9F1C-4D6279FEBB66}|CSharp_opp_2\\CSharp_opp_2.csproj|g:\\weekone\\unity_study\\csharpstudy\\csharp_opp_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FA04F0-BA60-4853-9F1C-4D6279FEBB66}|CSharp_opp_2\\CSharp_opp_2.csproj|solutionrelative:csharp_opp_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|g:\\weekone\\unity_study\\csharpstudy\\lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|solutionrelative:lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79073F13-0B4C-4A0B-9441-E21BB29BB1A8}|CSharp_opp\\CSharp_opp.csproj|g:\\weekone\\unity_study\\csharpstudy\\csharp_opp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79073F13-0B4C-4A0B-9441-E21BB29BB1A8}|CSharp_opp\\CSharp_opp.csproj|solutionrelative:csharp_opp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BCF9979-9DDD-470D-A0B1-DC8D4208230D}|TwoEndProject\\TwoEndProject.csproj|g:\\weekone\\unity_study\\csharpstudy\\twoendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BCF9979-9DDD-470D-A0B1-DC8D4208230D}|TwoEndProject\\TwoEndProject.csproj|solutionrelative:twoendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|g:\\weekone\\unity_study\\csharpstudy\\lesson\\lesson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|solutionrelative:lesson\\lesson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{228353ED-10D4-4DA4-BEF2-A089ADC282FF}|CSharpStudy_simple\\CSharpStudy_A.csproj|g:\\weekone\\unity_study\\csharpstudy\\csharpstudy_simple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,14 +51,6 @@
       "RelativeMoniker": "D:0:0:{905FA177-CC5E-482D-859C-15959962D294}|CSahrp_study_B\\CSahrp_study_B.csproj|solutionrelative:csahrp_study_b\\csahrp_study_b.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|g:\\weekone\\unity_study\\csharpstudy\\lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|solutionrelative:lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|g:\\weekone\\unity_study\\csharpstudy\\lesson\\lesson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5AD956CA-361E-42F7-9E02-B0CA84AF5EDB}|Lesson\\Lesson.csproj|solutionrelative:lesson\\lesson.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5016759-6E6F-4F00-907B-F287F2A3CB63}|OneEndProject\\OneEndProject.csproj|g:\\weekone\\unity_study\\csharpstudy\\oneendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5016759-6E6F-4F00-907B-F287F2A3CB63}|OneEndProject\\OneEndProject.csproj|solutionrelative:oneendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,37 +70,102 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp\\Program.cs",
-              "RelativeDocumentMoniker": "CSharp_opp\\Program.cs",
-              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp\\Program.cs",
-              "RelativeToolTip": "CSharp_opp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T11:03:37.784Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\TwoEndProject\\Program.cs",
-              "RelativeDocumentMoniker": "TwoEndProject\\Program.cs",
-              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\TwoEndProject\\Program.cs",
-              "RelativeToolTip": "TwoEndProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAXAAAAAAAAAA==",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_4\\Program.cs",
+              "RelativeDocumentMoniker": "CSharp_opp_4\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_4\\Program.cs",
+              "RelativeToolTip": "CSharp_opp_4\\Program.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAkwEEBAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:15:53.975Z",
+              "WhenOpened": "2025-02-28T12:14:23.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CSharp_opp_3.csproj",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_3\\CSharp_opp_3.csproj",
+              "RelativeDocumentMoniker": "CSharp_opp_3\\CSharp_opp_3.csproj",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_3\\CSharp_opp_3.csproj",
+              "RelativeToolTip": "CSharp_opp_3\\CSharp_opp_3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-28T09:28:22.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_3\\Program.cs",
+              "RelativeDocumentMoniker": "CSharp_opp_3\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_3\\Program.cs",
+              "RelativeToolTip": "CSharp_opp_3\\Program.cs",
+              "ViewState": "AgIAAD0CAAAAAAAAAAAUwIACAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T09:06:53.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\Lesson_2\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson_2\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\Lesson_2\\Program.cs",
+              "RelativeToolTip": "Lesson_2\\Program.cs",
+              "ViewState": "AgIAAFoCAAAAAAAAAAAAwGICAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T06:34:53.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_2\\Program.cs",
+              "RelativeDocumentMoniker": "CSharp_opp_2\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp_2\\Program.cs",
+              "RelativeToolTip": "CSharp_opp_2\\Program.cs",
+              "ViewState": "AgIAAOUBAAAAAAAAAAAiwAoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T06:12:10.807Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp\\Program.cs",
+              "RelativeDocumentMoniker": "CSharp_opp\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharp_opp\\Program.cs",
+              "RelativeToolTip": "CSharp_opp\\Program.cs",
+              "ViewState": "AgIAADAEAAAAAAAAAAAiwCIEAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:03:37.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\TwoEndProject\\Program.cs",
+              "RelativeDocumentMoniker": "TwoEndProject\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\TwoEndProject\\Program.cs",
+              "RelativeToolTip": "TwoEndProject\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwJUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T08:15:53.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Lesson.csproj",
               "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\Lesson\\Lesson.csproj",
               "RelativeDocumentMoniker": "Lesson\\Lesson.csproj",
@@ -92,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "CSahrp_study_B.csproj",
               "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSahrp_study_B\\CSahrp_study_B.csproj",
               "RelativeDocumentMoniker": "CSahrp_study_B\\CSahrp_study_B.csproj",
@@ -110,13 +195,13 @@
               "RelativeDocumentMoniker": "Lesson\\Program.cs",
               "ToolTip": "G:\\weekone\\Unity_Study\\CSharpStudy\\Lesson\\Program.cs",
               "RelativeToolTip": "Lesson\\Program.cs",
-              "ViewState": "AgIAAJoCAAAAAAAAAAAiwLICAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAPYDAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T02:51:39.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSahrp_study_B\\Program.cs",
               "RelativeDocumentMoniker": "CSahrp_study_B\\Program.cs",
@@ -128,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\OneEndProject\\Program.cs",
               "RelativeDocumentMoniker": "OneEndProject\\Program.cs",
@@ -140,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharpStudy\\CSharpStudy_simple\\Program.cs",
               "RelativeDocumentMoniker": "CSharpStudy_simple\\Program.cs",
