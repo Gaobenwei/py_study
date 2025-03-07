@@ -896,17 +896,26 @@ print(f"Current count: {hello_world.count}")  # 输出: Current count: 7
 ```python
 class DecoratorClass:
     def __init__(self, func):
+        print(f"初始化位置")
         self.func = func
     
     def __call__(self, *args, **kwargs):
-        # 在调用原始函数之前/之后执行的代码
+        print(f"调用之前")
         result = self.func(*args, **kwargs)
-        # 在调用原始函数之后执行的代码
+        print(f"调用之后")
         return result
 
 @DecoratorClass
 def my_function():
     pass
+
+my_function()
+
+'''
+初始化位置
+调用之前
+调用之后
+'''
 ```
 **带参数的类装饰器**：当装饰器有参数的时候，`__init__()`函数就不能传输func(func代表药装饰的函数),而func是在`__call__()`函数中传入的
 ```python
@@ -938,8 +947,115 @@ if __name__ == '__main__':
     print('准备调用example()')
     example('Baiyu', 'Happy', 'Coder')
     print('测试代码执行完毕')
+
+'''
+执行类Decorator的__init__()方法
+执行类Decorator的__call__()方法
+准备调用example()
+执行wrap()
+装饰器参数： Hello Baiyu
+执行example()
+传入example()的参数： Baiyu Happy Coder
+example()执行完毕
+测试代码执行完毕
+'''
 ```
 > 这里注意观察一下输出的顺序，在调用之前就会输出__init__()等信息，带参数的和不带参数的都观察一下。
+## 修饰类的装饰器
+用法是在定义类时 @decorator_class，一般是用于向类中添加一些附加操作或者注册类到某个地方，比如注册到某个容器中，或者注册到某个事件中。
+举几个例子：
+```python
+# 单例模式装饰器
+def singleton(cls):
+    instance = {}
+    def get_instance(*args, **kwargs):
+        if cls not in instance:
+            instance[cls] = cls(*args, **kwargs)
+        return instance[cls]
+    return get_instance
+@singleton
+class DatabaseConnection(object):
+    def __init__(self):
+        print('Initializing database connection')
+# 测试
+db1 = DatabaseConnection()
+db2 = DatabaseConnection()
+print(db1 is db2) 
+'''
+Initializing database connection
+True
+'''
+```
+```python
+# 自动添加方法
+def add_method(cls):
+    def new_methon(self):
+        return f"added to  {self.__class__.__name__}"
+    cls.new_method = new_methon
+    return cls
+@add_method
+class MyClass:
+    pass
+obj = MyClass()
+print(obj.new_method()) #
+'''
+added to MyClass
+'''
+```
+```python
+# 属性验证
+def validate_attributes(cls):
+    original_init = cls.__init__
+    def new_init(self, name, age):
+        if not isinstance(name, str):
+            raise ValueError("Name must be a string")
+        if age < 0:
+            raise ValueError("Age cannot be negative")
+        original_init(self, name, age)
+    cls.__init__ = new_init
+    return cls
+
+@validate_attributes
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# 测试
+p = Person("Alice", 30)  # 正常
+p = Person(123, -5)     # 抛出 ValueError
+'''
+register event: click
+'''
+```
+```python
+# 事件注册
+MOTION_ID = {}
+def RegisterMotion(cls):
+    if 'motion_id' in cls.__dict__:
+        global MOTION_ID
+        MOTION_ID[cls.motion_id] = cls.__name__
+    return cls
+
+@RegisterMotion
+class WalkMotion:
+    motion_id = 1
+    def __init__(self):
+        print("register event: click")
+    def __call__(self):
+        print("motion event")
+
+@RegisterMotion
+class RunMotion:
+    motion_id = 1002
+print(MOTION_ID_TO_NODE_AUTH)
+'''
+register event: click
+{1: 'WalkMotion', 1002: 'RunMotion'}
+'''
+```
+
+
 
 
 ## 函数可以作为返回结果，就是一个函数对象，再进行调用才会返回结果
