@@ -1,0 +1,67 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\weekone\\Unity_Study\\Csharp_four\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{325BD6FD-89D6-49C9-BDC4-D5CEE44B7CF8}|Lesson\\Lesson.csproj|g:\\weekone\\unity_study\\csharp_four\\lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{325BD6FD-89D6-49C9-BDC4-D5CEE44B7CF8}|Lesson\\Lesson.csproj|solutionrelative:lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A31C061-2708-45C9-A757-F093928C58E6}|Csharp_four\\Csharp_four.csproj|g:\\weekone\\unity_study\\csharp_four\\csharp_four\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A31C061-2708-45C9-A757-F093928C58E6}|Csharp_four\\Csharp_four.csproj|solutionrelative:csharp_four\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Lesson\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Lesson\\Program.cs",
+              "RelativeToolTip": "Lesson\\Program.cs",
+              "ViewState": "AgIAAMkDAAAAAAAAAAAqwNADAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T15:40:09.884Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{85201848-e430-4035-8649-f412b84d4778}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Csharp_four\\Program.cs",
+              "RelativeDocumentMoniker": "Csharp_four\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Csharp_four\\Program.cs",
+              "RelativeToolTip": "Csharp_four\\Program.cs",
+              "ViewState": "AgIAAGEDAAAAAAAAAAAAwGEDAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T13:20:34.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

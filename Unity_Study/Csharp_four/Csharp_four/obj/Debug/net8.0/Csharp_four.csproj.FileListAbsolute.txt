@@ -1,0 +1,15 @@
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\bin\Debug\net8.0\Csharp_four.exe
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\bin\Debug\net8.0\Csharp_four.deps.json
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\bin\Debug\net8.0\Csharp_four.runtimeconfig.json
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\bin\Debug\net8.0\Csharp_four.dll
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\bin\Debug\net8.0\Csharp_four.pdb
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.GeneratedMSBuildEditorConfig.editorconfig
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.AssemblyInfoInputs.cache
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.AssemblyInfo.cs
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.csproj.CoreCompileInputs.cache
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.sourcelink.json
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.dll
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\refint\Csharp_four.dll
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.pdb
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\Csharp_four.genruntimeconfig.cache
+G:\weekone\Unity_Study\Csharp_four\Csharp_four\obj\Debug\net8.0\ref\Csharp_four.dll

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Snake")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Csharp_four")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+814428dedceba7fe4445a828f5520546554682c6")]
-[assembly: System.Reflection.AssemblyProductAttribute("Snake")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Snake")]
+[assembly: System.Reflection.AssemblyProductAttribute("Csharp_four")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Csharp_four")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
