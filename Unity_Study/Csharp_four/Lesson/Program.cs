@@ -781,6 +781,7 @@ using System.Linq.Expressions;
 
 using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 //namespace Lesson7_练习题
 //{
@@ -917,167 +918,743 @@ using System.Collections.Generic;
 //    }
 //}
 
-namespace 练习题9
+//namespace 练习题9
+//{
+//    class LinkedList<T>
+//    {
+//        private LinkedNode<T> head;
+//        private LinkedNode<T> last;
+//        private int count = 0;
+//        public int Count
+//        {
+//            get
+//            {
+//                return this.count;
+//            }
+//        }
+//        public LinkedNode<T> Head
+//        {
+//            get { return this.head; }
+//        }
+//        public LinkedNode<T> Last
+//        {
+//            get { return this.last; }
+//        }
+//        public void Add(T value)
+//        {
+//            LinkedNode<T> new_noed= new LinkedNode<T>(value);
+//            if(head == null)
+//            {
+//                head = new_noed;
+//                last = new_noed;
+//            }
+//            else
+//            {
+//                last.nextNode = new_noed;
+//                new_noed.frontNode = last;
+//                last = new_noed;
+//            }
+//            ++count;
+//        }
+//        public void RemoveAt(int index)
+//        {
+//            LinkedNode<T> temp_node=head;
+//            if(index < 0 || index >=count)
+//            {
+//                Console.WriteLine("索引越界");
+//                return;
+//            }
+//            int temp_count = 0;
+//            while(true)
+//            {
+//                if(temp_count==index)
+//                {
+//                    if (temp_node.frontNode != null )
+//                    {
+//                        temp_node.frontNode.nextNode = temp_node.nextNode;
+//                    }
+//                    if (temp_node.nextNode!=null)
+//                    {
+//                        temp_node.nextNode.frontNode = temp_node.frontNode;
+//                    }
+
+//                    if(index==0)
+//                    {
+//                        head=temp_node.nextNode;
+//                    }
+//                    else if(index == count - 1)
+//                    {
+//                        last = temp_node.frontNode;
+//                    }
+//                    --count;
+//                    break;
+//                }
+//                temp_node = temp_node.nextNode;
+//                ++temp_count;
+//            }
+//        }
+//    }
+//    class LinkedNode<T>
+//    {
+//        public T value;
+//        public LinkedNode<T> nextNode;
+//        public LinkedNode<T> frontNode;
+//        public LinkedNode(T value)
+//        {
+//            this.value = value;
+//            nextNode = null;
+//            frontNode = null;
+//        }
+//    }
+//    class Program
+//    {
+
+//        static void Main(string[] args)
+//        {
+//            LinkedList<int> link = new LinkedList<int>();
+//            link.Add(1);
+//            link.Add(2);
+//            link.Add(3);
+//            link.Add(4);
+//            //正向遍历
+//            LinkedNode<int> node = link.Head;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.nextNode;
+//            }
+//            //反向遍历
+//            node = link.Last;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.frontNode;
+//            }
+//            link.RemoveAt(0);
+//            //正向遍历
+//            node = link.Head;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.nextNode;
+//            }
+//            //反向遍历
+//            node = link.Last;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.frontNode;
+//            }
+//            Console.WriteLine("***************");
+//            link.RemoveAt(1);
+//            //正向遍历
+//            node = link.Head;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.nextNode;
+//            }
+//            //反向遍历
+//            node = link.Last;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.frontNode;
+//            }
+//            Console.WriteLine("***************");
+//            link.RemoveAt(1);
+//            //正向遍历
+//            node = link.Head;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.nextNode;
+//            }
+//            //反向遍历
+//            node = link.Last;
+//            while (node != null)
+//            {
+//                Console.WriteLine(node.value);
+//                node = node.frontNode;
+//            }
+//            Console.WriteLine("***************");
+//            link.RemoveAt(1);
+//        }
+//    }
+//}
+
+//namespace Lesson10_练习题
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            LinkedList<int> list_= new LinkedList<int>();
+//            Random random = new Random();
+//            for(int i=0;i<10;++i)
+//            {
+//                list_.AddLast(random.Next(1, 100));
+//            }
+//            foreach(int item in list_)
+//            {
+//                Console.WriteLine(item);
+//            }
+//            LinkedListNode<int> node = list_.Last;
+//            while (node!=null)
+//            {
+//                Console.WriteLine(node.Value);
+//                node = node.Previous;
+//            }
+//        }
+
+//    }
+//}
+
+//namespace lesson_12
+//{
+//    abstract class Person
+//    {
+//        abstract public void eat();
+//    }
+//    class ma : Person
+//    {
+//        public override void eat()
+//        {
+//            Console.WriteLine("妈妈吃饭");
+//        }
+
+//        public void dofood()
+//        {
+//            Console.WriteLine("妈妈做饭");
+
+//            //this.begin_eat+= 
+//            Console.WriteLine("饭做好了");
+//            if (begin_eat!=null)
+//            {
+//                this.begin_eat();
+//            }
+//        }
+
+//        public Action begin_eat;
+//    }
+
+//    class ba : Person
+//    {
+//        public override void eat()
+//        {
+//            Console.WriteLine("老爸吃饭");
+//        }
+//    }
+
+//    class son:Person
+//    {
+//        public override void eat()
+//        {
+//            Console.WriteLine("son吃饭");
+//        }
+//    }
+
+//    class Monster
+//    {
+//        public Action<Monster> dosomething;
+//        public int a = 10;
+//        public void Dead() { 
+//            if(dosomething!=null)
+//            {
+//                this.dosomething(this);
+//                dosomething = null;
+//            }
+//        }
+//    }
+//    class player {
+//        private int money = 0;
+//        public void monsterdead(Monster m)
+//        {
+//            this.money += m.a;
+//            Console.WriteLine("现在有多{0}钱：", this.money);
+//        }
+//    }
+//    class panel {
+//        private int nowshowMoney = 0;
+//        public void monsterdead(Monster m)
+//        {
+//            nowshowMoney += m.a;
+
+//            Console.WriteLine("死了怪 ，前发生变化 {0}",nowshowMoney);
+//        }
+//    }
+
+//    class CJ
+//    {
+//        private int nowkillnum = 0;
+//        public void monsterdead(Monster m)
+//        {
+//            nowkillnum++;
+//            Console.WriteLine("当前杀了{0}个怪", nowkillnum);
+//        }
+//    }
+
+
+
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            ma mother=new ma();
+//            ba father = new ba();
+//            son errzi = new son();
+
+//            mother.begin_eat += father.eat;
+//            mother.begin_eat += mother.eat;
+//            mother.begin_eat += errzi.eat;
+//            mother.dofood();
+
+//            Monster m1 = new Monster();
+//            player play = new player();
+//            panel p = new panel();
+//            CJ c = new CJ();
+//            m1.dosomething += play.monsterdead;
+//            m1.dosomething += p.monsterdead;
+//            m1.dosomething += c.monsterdead;
+//            m1.Dead();
+//            m1.Dead();
+//        }
+//    }
+
+//}
+
+//namespace lianxi_13
+//{
+//    #region 练习题
+//    //有一个热水器，包含一个加热器，一个报警器，一个显示器
+//    //我们给热水器通上电，当水温超过95度时
+//    //1.报警器会开始发出语音，告诉你水的温度
+//    //2.显示器也会改变水温提示，提示水已经烧开了
+//    class Heater
+//    {
+//        public event Action<int> myEvnet;
+//        private int value = 0;
+//        public void AddHot()
+//        {
+//            int updateIndex = 0;
+//            while(true)
+//            {
+//                if(updateIndex % 9999999 == 0)
+//                {
+//                    ++value;
+//                    Console.WriteLine("加热到了{0}度", value);
+//                    if(value>=100)
+//                    {
+//                        break;
+//                    }
+//                    if(value>=95)
+//                    {
+//                        if(myEvnet != null)
+//                        {
+//                            myEvnet(value);
+//                        }
+//                        myEvnet = null;
+//                    }
+//                    updateIndex = 0;
+//                }
+//                updateIndex++;
+//            }
+//        }
+//    }
+
+//    class Alarm
+//    {
+//        public void ShowInfo(int v)
+//        {
+//            Console.WriteLine("wendu{0}", v);
+//        }
+//    }
+
+//    class Display
+//    {
+//        public void ShowInfo(int v)
+//        {
+//            Console.WriteLine("水开了，当前水温{0}度", v);
+//        }
+//    }
+
+
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("事件练习题");
+
+//            Heater h = new Heater();
+//            Alarm a = new Alarm();
+//            Display d = new Display();
+//            h.myEvnet += a.ShowInfo;
+//            h.myEvnet += d.ShowInfo;
+//            //加热
+//            h.AddHot();
+//        }
+//    }
+//    #endregion
+//}
+
+//namespace lesson_014
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("匿名函数练习题");
+//            Func<int, int> fun = TestFun(2);
+//            Console.WriteLine(fun(3));
+//        }
+
+//        static Func<int,int> TestFun(int i)
+//        {
+//            return delegate (int v)
+//            {
+//                return i * v;
+//            };
+//        }
+//    }
+//}
+
+//namespace Lesson_15
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("lambad表达式 练习题");
+//            GetFun()();
+//            GetFun2()();
+//            //GetFun3()();
+//        }
+
+//        static Action GetFun()
+//        {
+//            Action action = null;
+//            for(int i=1;i<=10;++i)
+//            {
+//                int index = i;
+//                action += () => { Console.WriteLine(index); };
+//            }
+//            return action;
+//        }
+
+//        static Action GetFun2()
+//        {
+//            Action action = null;
+//            for (int i = 1; i <= 10; i++)
+//            {
+//                int index = i;
+//                action += delegate ()
+//                {
+//                    Console.WriteLine(index);
+//                };
+//            }
+//            return action;
+//        }
+
+//        static Action GetFun3()
+//        {
+//            Action action = null;
+//            for (int i = 1; i <= 10; i++)
+//            {
+//                int index = i;
+//                action += () =>
+//                {
+//                    Show(index);
+//                };
+//            }
+//            return action;
+//        }
+
+//        static void Show(int i)
+//        {
+//            Console.WriteLine(i);
+//        }
+
+//    }
+//}
+
+//namespace lessom15
+//{
+//    class Monster
+//    {
+//        public static int SortType = 1;
+//        public int hp;
+//        public int atk;
+//        public int def;
+//        public Monster(int hp, int atk, int def)
+//        {
+//            this.hp = hp;
+//            this.atk = atk;
+//            this.def = def;
+//        }
+//        public override string ToString()
+//        {
+//            return string.Format("怪物信息-血量{0}攻击力{1}防御力{2}", this.hp, this.atk, this.def);
+//        }
+//    }
+
+
+//    class Item
+//    {
+//        public int type;
+//        public string name;
+//        public int quality;
+
+//        public Item(int type, string name, int quality)
+//        {
+//            this.type = type;
+//            this.name = name;
+//            this.quality = quality;
+//        }
+
+//        public override string ToString()
+//        {
+//            return string.Format("道具信息-类型{0} 名字{1} 品质{2}", type, name, quality);
+//        }
+//    }
+
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            List<Monster> monsters = new List<Monster>();
+//            Random r = new Random();
+//            for (int i = 0; i < 10; i++)
+//            {
+//                monsters.Add(new Monster(r.Next(100, 201), r.Next(5, 21), r.Next(2, 10)));
+//                Console.WriteLine(monsters[i]);
+//            }
+
+//            Console.WriteLine("********************");
+//            try
+//            {
+//                Console.WriteLine("请输入1~4的数字进行排序");
+//                Console.WriteLine("1:按攻击力升序排列");
+//                Console.WriteLine("2:按防御力升序排列");
+//                Console.WriteLine("3:按血量序排列");
+//                Console.WriteLine("4:翻转");
+//                Monster.SortType = int.Parse(Console.ReadLine());
+//                if(Monster.SortType ==4)
+//                {
+//                    monsters.Reverse();
+//                }
+//                else
+//                {
+//                    monsters.Sort(SortFun);
+//                }
+
+//                switch (Monster.SortType)
+//                {
+//                    case 1:
+//                        monsters.Sort((a, b) =>
+//                        {
+//                            return a.atk > b.atk ? 1 : -1;
+//                        });
+//                        break;
+//                    case 2:
+//                        monsters.Sort((a, b) =>
+//                        {
+//                            return a.def > b.def ? 1 : -1;
+//                        });
+//                        break;
+//                    case 3:
+//                        monsters.Sort((a, b) =>
+//                        {
+//                            return a.hp > b.hp ? 1 : -1;
+//                        });
+//                        break;
+//                    case 4:
+//                        //翻转API
+//                        monsters.Reverse();
+//                        break;
+//                }
+
+//                for (int i = 0; i < 10; i++)
+//                {
+//                    Console.WriteLine(monsters[i]);
+//                }
+//            }
+//            catch
+//            {
+//                Console.WriteLine("请输入数字");
+//            }
+
+//            List<Item> itemList = new List<Item>();
+//            Random r1 = new Random();
+//            for (int i = 0; i < 10; i++)
+//            {
+//                itemList.Add(new Item(r1.Next(1, 6), "Item" + r1.Next(1, 200), r1.Next(1, 6)));
+//                Console.WriteLine(itemList[i]);
+//            }
+
+//            itemList.Sort((Item a, Item b) =>
+//            {
+//                if (a.type != b.type)
+//                {
+//                    return a.type > b.type ? -1 : 1;
+//                }
+//                //按品质比
+//                else if (a.quality != b.quality)
+//                {
+//                    return a.quality > b.quality ? -1 : 1;
+//                }
+//                //否则就直接按名字长度比
+//                else
+//                {
+//                    return a.name.Length > b.name.Length ? -1 : 1;
+//                }
+//            }
+//            );
+
+//            Console.WriteLine("*********************");
+//            for (int i = 0; i < 10; i++)
+//            {
+//                Console.WriteLine(itemList[i]);
+//            }
+
+//            Dictionary<int, string> dic = new Dictionary<int, string>();
+//            dic.Add(2, "123123");
+//            dic.Add(6, "123123");
+//            dic.Add(1, "123123");
+//            dic.Add(4, "123123");
+//            dic.Add(3, "123123");
+//            dic.Add(5, "123123");
+
+//            List<KeyValuePair<int, string>> list__ = new List<KeyValuePair<int, string>>(); 
+//            foreach(KeyValuePair<int,string> item in dic)
+//            {
+//                list__.Add(item);
+//                Console.WriteLine(item.Key + "_" + item.Value);
+//            }
+//            list__.Sort((a, b) =>
+//            {
+//                return a.Key > b.Key ? 1 : -1;
+//            });
+
+//            foreach(KeyValuePair<int, string> item in list__)
+//            {
+//                Console.WriteLine(item.Key + "_" + item.Value);
+//            }
+
+
+
+
+
+//        }
+
+//        static int SortFun(Monster m1, Monster m2)
+//        {
+//            switch (Monster.SortType)
+//            {
+//                case 1:
+//                    return m1.atk > m2.atk ? 1 : -1;
+//                case 2:
+//                    return m1.def > m2.def ? 1 : -1;
+//                case 3:
+//                    return m1.hp > m2.hp ? 1 : -1;
+//            }
+//            return 0;
+//        }
+//    }
+//}
+
+namespace Lession_
 {
-    class LinkedList<T>
+    enum E_MoveDir
     {
-        private LinkedNode<T> head;
-        private LinkedNode<T> last;
-        private int count = 0;
-        public int Count
-        {
-            get
-            {
-                return this.count;
-            }
-        }
-        public LinkedNode<T> Head
-        {
-            get { return this.head; }
-        }
-        public LinkedNode<T> Last
-        {
-            get { return this.last; }
-        }
-        public void Add(T value)
-        {
-            LinkedNode<T> new_noed= new LinkedNode<T>(value);
-            if(head == null)
-            {
-                head = new_noed;
-                last = new_noed;
-            }
-            else
-            {
-                last.nextNode = new_noed;
-                new_noed.frontNode = last;
-                last = new_noed;
-            }
-            ++count;
-        }
-        public void RemoveAt(int index)
-        {
-            LinkedNode<T> temp_node=head;
-            if(index < 0 || index >=count)
-            {
-                Console.WriteLine("索引越界");
-                return;
-            }
-            int temp_count = 0;
-            while(true)
-            {
-                if(temp_count==index)
-                {
-                    if (temp_node.frontNode != null )
-                    {
-                        temp_node.frontNode.nextNode = temp_node.nextNode;
-                    }
-                    if (temp_node.nextNode!=null)
-                    {
-                        temp_node.nextNode.frontNode = temp_node.frontNode;
-                    }
-                   
-                    if(index==0)
-                    {
-                        head=temp_node.nextNode;
-                    }
-                    else if(index == count - 1)
-                    {
-                        last = temp_node.frontNode;
-                    }
-                    --count;
-                    break;
-                }
-                temp_node = temp_node.nextNode;
-                ++temp_count;
-            }
-        }
+        Up,Down,Right,Left,
     }
-    class LinkedNode<T>
+
+    class Icon
     {
-        public T value;
-        public LinkedNode<T> nextNode;
-        public LinkedNode<T> frontNode;
-        public LinkedNode(T value)
+        public E_MoveDir dir;
+        public int x;
+        public int y;
+        public Icon(int x,int y, E_MoveDir dir)
         {
-            this.value = value;
-            nextNode = null;
-            frontNode = null;
+            this.x = x;
+            this.y = y;
+            this.dir = dir;
         }
+        public void Move()
+        {
+            switch (dir)
+            {
+                case E_MoveDir.Up:
+                    y--;
+                    break;
+                case E_MoveDir.Down:
+                    y++;
+                    break;
+                case E_MoveDir.Right:
+                    x+=2;
+                    break;
+                case E_MoveDir.Left:
+                    x-=2;
+                    break;
+            }
+        }
+        public void Draw()
+        {
+            Console.SetCursorPosition(x, y);
+            Console.WriteLine("●");
+        }
+        public void Clear()
+        {
+            Console.SetCursorPosition(x, y);
+            Console.WriteLine("  ");
+        }
+        public void ChangeDir(E_MoveDir dir) { this.dir = dir; }
     }
     class Program
     {
-
+        static Icon icon;
         static void Main(string[] args)
         {
-            LinkedList<int> link = new LinkedList<int>();
-            link.Add(1);
-            link.Add(2);
-            link.Add(3);
-            link.Add(4);
-            //正向遍历
-            LinkedNode<int> node = link.Head;
-            while (node != null)
+            Console.WriteLine("多线程练习题");
+            //多线程练习题
+            Console.CursorVisible=false;
+            icon = new Icon(10,5,E_MoveDir.Up);
+            icon.Draw();
+            Thread t = new Thread(NewThreadLogic);
+            t.IsBackground=true;
+            t.Start();
+            while (true)
             {
-                Console.WriteLine(node.value);
-                node = node.nextNode;
+                Thread.Sleep(100);
+                icon.Clear();
+                icon.Move();
+                icon.Draw();
+
             }
-            //反向遍历
-            node = link.Last;
-            while (node != null)
+        }
+
+        static void NewThreadLogic()
+        {
+            while(true)
             {
-                Console.WriteLine(node.value);
-                node = node.frontNode;
+                switch(Console.ReadKey(true).Key)
+                {
+                    case ConsoleKey.W:
+                        icon.ChangeDir(E_MoveDir.Up);
+                        break;
+                    case ConsoleKey.S:
+                        icon.ChangeDir(E_MoveDir.Down);
+                        break;
+                    case ConsoleKey.A:
+                        icon.ChangeDir(E_MoveDir.Left);
+                        break;
+                    case ConsoleKey.D:
+                        icon.ChangeDir(E_MoveDir.Right);
+                        break;
+                }
             }
-            link.RemoveAt(0);
-            //正向遍历
-            node = link.Head;
-            while (node != null)
-            {
-                Console.WriteLine(node.value);
-                node = node.nextNode;
-            }
-            //反向遍历
-            node = link.Last;
-            while (node != null)
-            {
-                Console.WriteLine(node.value);
-                node = node.frontNode;
-            }
-            Console.WriteLine("***************");
-            link.RemoveAt(1);
-            //正向遍历
-            node = link.Head;
-            while (node != null)
-            {
-                Console.WriteLine(node.value);
-                node = node.nextNode;
-            }
-            //反向遍历
-            node = link.Last;
-            while (node != null)
-            {
-                Console.WriteLine(node.value);
-                node = node.frontNode;
-            }
-            Console.WriteLine("***************");
-            link.RemoveAt(1);
-            //正向遍历
-            node = link.Head;
-            while (node != null)
-            {
-                Console.WriteLine(node.value);
-                node = node.nextNode;
-            }
-            //反向遍历
-            node = link.Last;
-            while (node != null)
-            {
-                Console.WriteLine(node.value);
-                node = node.frontNode;
-            }
-            Console.WriteLine("***************");
-            link.RemoveAt(1);
         }
     }
+
+
 }

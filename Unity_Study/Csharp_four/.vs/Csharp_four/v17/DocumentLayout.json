@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "G:\\weekone\\Unity_Study\\Csharp_four\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{325BD6FD-89D6-49C9-BDC4-D5CEE44B7CF8}|Lesson\\Lesson.csproj|g:\\weekone\\unity_study\\csharp_four\\lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{325BD6FD-89D6-49C9-BDC4-D5CEE44B7CF8}|Lesson\\Lesson.csproj|solutionrelative:lesson\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9900D734-E1CC-48E1-B130-BA3F813FB9FF}|Iterator\\Iterator.csproj|g:\\weekone\\unity_study\\csharp_four\\iterator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9900D734-E1CC-48E1-B130-BA3F813FB9FF}|Iterator\\Iterator.csproj|solutionrelative:iterator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A31C061-2708-45C9-A757-F093928C58E6}|Csharp_four\\Csharp_four.csproj|g:\\weekone\\unity_study\\csharp_four\\csharp_four\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A31C061-2708-45C9-A757-F093928C58E6}|Csharp_four\\Csharp_four.csproj|solutionrelative:csharp_four\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC73EDE6-7B22-49D5-AE79-250043EBE243}|DuoXianCheng\\DuoXianCheng.csproj|g:\\weekone\\unity_study\\csharp_four\\duoxiancheng\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC73EDE6-7B22-49D5-AE79-250043EBE243}|DuoXianCheng\\DuoXianCheng.csproj|solutionrelative:duoxiancheng\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A23303-4960-4D89-816B-0CEBF8388C5C}|ClassLibrary1_test\\ClassLibrary1_test.csproj|G:\\weekone\\Unity_Study\\Csharp_four\\classlibrary1_test\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17A23303-4960-4D89-816B-0CEBF8388C5C}|ClassLibrary1_test\\ClassLibrary1_test.csproj|solutionrelative:classlibrary1_test\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05110E61-B045-463E-86EE-1D0847BC8616}|texing\\texing.csproj|g:\\weekone\\unity_study\\csharp_four\\texing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05110E61-B045-463E-86EE-1D0847BC8616}|texing\\texing.csproj|solutionrelative:texing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9130BD7-16D4-4E5C-8ECB-D8A182B6ADE4}|Dll1\\Dll1.vcxproj|G:\\weekone\\Unity_Study\\Csharp_four\\Dll1\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C9130BD7-16D4-4E5C-8ECB-D8A182B6ADE4}|Dll1\\Dll1.vcxproj|solutionrelative:Dll1\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9130BD7-16D4-4E5C-8ECB-D8A182B6ADE4}|Dll1\\Dll1.vcxproj|G:\\weekone\\Unity_Study\\Csharp_four\\Dll1\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C9130BD7-16D4-4E5C-8ECB-D8A182B6ADE4}|Dll1\\Dll1.vcxproj|solutionrelative:Dll1\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F9DE2-265C-4947-9D1D-816C4C63CD5E}|Dll2\\Dll2.vcxproj|G:\\weekone\\Unity_Study\\Csharp_four\\Dll2\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B7F9DE2-265C-4947-9D1D-816C4C63CD5E}|Dll2\\Dll2.vcxproj|solutionrelative:Dll2\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B7F9DE2-265C-4947-9D1D-816C4C63CD5E}|Dll2\\Dll2.vcxproj|G:\\weekone\\Unity_Study\\Csharp_four\\Dll2\\Dll2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B7F9DE2-265C-4947-9D1D-816C4C63CD5E}|Dll2\\Dll2.vcxproj|solutionrelative:Dll2\\Dll2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,46 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Lesson\\Program.cs",
-              "RelativeDocumentMoniker": "Lesson\\Program.cs",
-              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Lesson\\Program.cs",
-              "RelativeToolTip": "Lesson\\Program.cs",
-              "ViewState": "AgIAAMkDAAAAAAAAAAAqwNADAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T15:40:09.884Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "add.h",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll1\\add.h",
+              "RelativeDocumentMoniker": "Dll1\\add.h",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll1\\add.h",
+              "RelativeToolTip": "Dll1\\add.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T11:01:39.376Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "add.cpp",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll1\\add.cpp",
+              "RelativeDocumentMoniker": "Dll1\\add.cpp",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll1\\add.cpp",
+              "RelativeToolTip": "Dll1\\add.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T11:02:27.365Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{85201848-e430-4035-8649-f412b84d4778}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Iterator\\Program.cs",
+              "RelativeDocumentMoniker": "Iterator\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Iterator\\Program.cs",
+              "RelativeToolTip": "Iterator\\Program.cs",
+              "ViewState": "AgIAAGACAAAAAAAAAAAiwI4CAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:54:06.107Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll2\\dllmain.cpp",
+              "RelativeDocumentMoniker": "Dll2\\dllmain.cpp",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll2\\dllmain.cpp",
+              "RelativeToolTip": "Dll2\\dllmain.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T10:09:25.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dll2.cpp",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll2\\Dll2.cpp",
+              "RelativeDocumentMoniker": "Dll2\\Dll2.cpp",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Dll2\\Dll2.cpp",
+              "RelativeToolTip": "Dll2\\Dll2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-06T10:09:25.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\texing\\Program.cs",
+              "RelativeDocumentMoniker": "texing\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\texing\\Program.cs",
+              "RelativeToolTip": "texing\\Program.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAqwKwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:16:54.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\ClassLibrary1_test\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1_test\\Class1.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\ClassLibrary1_test\\Class1.cs",
+              "RelativeToolTip": "ClassLibrary1_test\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T11:44:29.864Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\Csharp_four\\Program.cs",
-              "RelativeDocumentMoniker": "Csharp_four\\Program.cs",
-              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\Csharp_four\\Program.cs",
-              "RelativeToolTip": "Csharp_four\\Program.cs",
-              "ViewState": "AgIAAGEDAAAAAAAAAAAAwGEDAAANAAAAAAAAAA==",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\Csharp_four\\DuoXianCheng\\Program.cs",
+              "RelativeDocumentMoniker": "DuoXianCheng\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\Csharp_four\\DuoXianCheng\\Program.cs",
+              "RelativeToolTip": "DuoXianCheng\\Program.cs",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAowF4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T13:20:34.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T11:35:46.241Z"
             }
           ]
         }

@@ -1,0 +1,15 @@
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\bin\Debug\net8.0\DuoXianCheng.exe
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\bin\Debug\net8.0\DuoXianCheng.deps.json
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\bin\Debug\net8.0\DuoXianCheng.runtimeconfig.json
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\bin\Debug\net8.0\DuoXianCheng.dll
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\bin\Debug\net8.0\DuoXianCheng.pdb
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.GeneratedMSBuildEditorConfig.editorconfig
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.AssemblyInfoInputs.cache
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.AssemblyInfo.cs
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.csproj.CoreCompileInputs.cache
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.sourcelink.json
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.dll
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\refint\DuoXianCheng.dll
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.pdb
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\DuoXianCheng.genruntimeconfig.cache
+G:\weekone\Unity_Study\Csharp_four\DuoXianCheng\obj\Debug\net8.0\ref\DuoXianCheng.dll

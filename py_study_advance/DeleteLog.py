@@ -36,5 +36,7 @@ def remove_lines_from_file(file_path, target_string):
 
 if __name__ == "__main__":
     file_path = sys.argv[1]
-    target_string = sys.argv[2]
-    remove_lines_from_file(file_path, target_string)
+    log_strs = sys.argv[2:]
+    print(log_strs)
+    for target_string in log_strs:
+        remove_lines_from_file(file_path, target_string)

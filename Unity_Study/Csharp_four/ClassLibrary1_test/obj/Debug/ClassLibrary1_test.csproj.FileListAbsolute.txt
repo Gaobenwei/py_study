@@ -1,0 +1,6 @@
+G:\weekone\Unity_Study\Csharp_four\ClassLibrary1_test\bin\Debug\ClassLibrary1_test.dll
+G:\weekone\Unity_Study\Csharp_four\ClassLibrary1_test\bin\Debug\ClassLibrary1_test.pdb
+G:\weekone\Unity_Study\Csharp_four\ClassLibrary1_test\obj\Debug\ClassLibrary1_test.csproj.AssemblyReference.cache
+G:\weekone\Unity_Study\Csharp_four\ClassLibrary1_test\obj\Debug\ClassLibrary1_test.csproj.CoreCompileInputs.cache
+G:\weekone\Unity_Study\Csharp_four\ClassLibrary1_test\obj\Debug\ClassLibrary1_test.dll
+G:\weekone\Unity_Study\Csharp_four\ClassLibrary1_test\obj\Debug\ClassLibrary1_test.pdb
