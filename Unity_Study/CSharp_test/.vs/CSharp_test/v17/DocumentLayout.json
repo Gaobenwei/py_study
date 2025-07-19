@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\weekone\\Unity_Study\\CSharp_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u8F93\u5165\u6A21\u5757\\inputthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u8F93\u5165\u6A21\u5757\\inputthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\beginorendbasescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\beginorendbasescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\beginscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\beginscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u5730\u56FE\u76F8\u5173\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u5730\u56FE\u76F8\u5173\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\drawobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\drawobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u642C\u8FD0\u65B9\u5757\\blockworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u642C\u8FD0\u65B9\u5757\\blockworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u65B9\u5757\u4FE1\u606F\u76F8\u5173\\blockinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u65B9\u5757\u4FE1\u606F\u76F8\u5173\\blockinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\idraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\idraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\endscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\isceneupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\isceneupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|g:\\weekone\\unity_study\\csharp_test\\csharp_test\\csharp_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C7C20700-022C-4D17-8D54-16F511E463FB}|CSharp_test\\CSharp_test.csproj|solutionrelative:csharp_test\\csharp_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{85201848-e430-4035-8649-f412b84d4778}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputThread.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u8F93\u5165\u6A21\u5757\\InputThread.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u8F93\u5165\u6A21\u5757\\InputThread.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u8F93\u5165\u6A21\u5757\\InputThread.cs",
+              "RelativeToolTip": "CSharp_test\\\u8F93\u5165\u6A21\u5757\\InputThread.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:41:15.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DrawObject.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\DrawObject.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\DrawObject.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\DrawObject.cs",
+              "RelativeToolTip": "CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\DrawObject.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswE4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:05:29.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlockWorker.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u642C\u8FD0\u65B9\u5757\\BlockWorker.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u642C\u8FD0\u65B9\u5757\\BlockWorker.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u642C\u8FD0\u65B9\u5757\\BlockWorker.cs",
+              "RelativeToolTip": "CSharp_test\\\u642C\u8FD0\u65B9\u5757\\BlockWorker.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwCkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T07:35:20.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlockInfo.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u65B9\u5757\u4FE1\u606F\u76F8\u5173\\BlockInfo.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u65B9\u5757\u4FE1\u606F\u76F8\u5173\\BlockInfo.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u65B9\u5757\u4FE1\u606F\u76F8\u5173\\BlockInfo.cs",
+              "RelativeToolTip": "CSharp_test\\\u65B9\u5757\u4FE1\u606F\u76F8\u5173\\BlockInfo.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T02:21:37.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CSharp_test.csproj",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\CSharp_test.csproj",
+              "RelativeDocumentMoniker": "CSharp_test\\CSharp_test.csproj",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\CSharp_test.csproj",
+              "RelativeToolTip": "CSharp_test\\CSharp_test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-14T02:21:37.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Map.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u5730\u56FE\u76F8\u5173\\Map.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u5730\u56FE\u76F8\u5173\\Map.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u5730\u56FE\u76F8\u5173\\Map.cs",
+              "RelativeToolTip": "CSharp_test\\\u5730\u56FE\u76F8\u5173\\Map.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwEkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T08:39:32.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Position.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Position.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Position.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Position.cs",
+              "RelativeToolTip": "CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Position.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:30:31.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Draw.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Draw.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Draw.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Draw.cs",
+              "RelativeToolTip": "CSharp_test\\\u7ED8\u5236\u5BF9\u8C61\u57FA\u7C7B\u548C\u679A\u4E3E\u7B49\u4FE1\u606F\\Draw.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:28:56.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeginScene.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginScene.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginScene.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginScene.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginScene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:12:36.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EndScene.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\EndScene.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\EndScene.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\EndScene.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\EndScene.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:12:32.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameObject.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameObject.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameObject.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameObject.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameObject.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:12:24.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameScene.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameScene.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameScene.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameScene.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\GameScene.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwD8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:11:19.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDraw.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\IDraw.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\IDraw.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\IDraw.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\IDraw.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:11:17.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISceneUpdate.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\ISceneUpdate.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\ISceneUpdate.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\ISceneUpdate.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\ISceneUpdate.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:10:59.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\Game.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\Game.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\Game.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\Game.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T08:19:04.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeginOrEndBaseScene.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginOrEndBaseScene.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginOrEndBaseScene.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginOrEndBaseScene.cs",
+              "RelativeToolTip": "CSharp_test\\\u79FB\u690D\u8D2A\u5403\u86C7\u4EE3\u7801\\BeginOrEndBaseScene.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T08:18:31.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\Program.cs",
+              "RelativeDocumentMoniker": "CSharp_test\\Program.cs",
+              "ToolTip": "G:\\weekone\\Unity_Study\\CSharp_test\\CSharp_test\\Program.cs",
+              "RelativeToolTip": "CSharp_test\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T08:15:21.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
