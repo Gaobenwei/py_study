@@ -116,3 +116,155 @@ if __name__ == '__main__':
     child_conn.close()
     p.join()
 ```
+# 描述器
+描述器本质是一个类的对象，可以通过托管协议托管属性的读取、存储等
+```python
+class Descriptor:
+    __get__(self, obj, type = None)->obj
+    __set__(self, obj, value)->None
+    __delete__(self, obj)->None
+    __set_name__(self, owner, name)
+
+class Obj:
+    attr = Descriptor()
+```
+
+eg:
+```python
+class Descriptor:
+    def __get__(self, obj, cls):
+        return obj._hp
+
+    def __set__(self, obj, value):
+        if value <0 or value > 100:
+            return
+        obj._hp=value
+
+class A:
+    hp = Descriptor()
+    def __init__(self):
+        self._hp = 0
+
+a= A()
+print(a.hp)
+a.hp = 99
+print(a.hp)
+```
+描述器实际上是绑定到类属性上的，访问该类属性时，描述器方法会触发。具体要注意以下两种情况：
+
+（1）通过实例访问类属性时
+如果通过实例访问（如 a.hp），obj 会是实例。
+通过实例调用描述器时，可以实现对某个具体对象的定制访问。
+```python
+a = A()
+print(a.hp)  # obj 是实例 a
+a.hp = 50    # obj 是实例 a
+del a.hp     # obj 是实例 a
+```
+（2）通过类访问类属性时
+如果直接通过类访问（如 A.hp），obj 会是 None，而 cls 是类本身。
+通过类调用描述器时，可以实现类级别的属性逻辑。
+```python
+print(A.hp)  # obj 是 None，因为这是类访问
+```
+>__get__(self, obj, cls)
+参数是 固定的两个（除了 self 本身）：
+obj: 调用此描述器的实例（通过实例访问描述器属性时传递），或 None（通过类访问描述器属性时传递）。
+cls: 调用此描述器的类
+> 
+> __set__(self, obj, value)
+参数是 固定的两个（除了 self 本身）：
+obj: 调用此描述器时的实例（用于设置属性时）。
+value: 设置的属性值。
+> 
+> __delete__(self, obj)
+参数是 固定的一个（除了 self 本身）：
+obj: 调用此描述器时的实例（用于删除属性时）。
+## 用于属性访问的时候
+> 对象的属性可以是：
+> 1. 对象本身属性
+> 2. 父类对象属性
+> 3. 类的属性
+> 4. 描述器托管
+> 5. _getattr__托管
+> 6. _getattribute_托管
+
+so,哪一个是`d.attr`
+
+python的属性访问链：
+没有重载__getattr__ 和__getattribute__，走正常属性访问
+1. Data Descriptor `__get__` (定义了get和set的)
+2. Object `__dict__`
+3. Non-Data Descriptor `__get__`(自定义了get的)
+4. MRO `__dict__`
+5. raise attributeerror
+
+定义了__getattribute__，全部托管，没有__getattribute__，走正常，找不到最后走__getattr__
+# 元类
+type所有类型默认的元类，通过type实例化一个类
+元类的核心方法
+
+`__new__(cls, name, bases, dct)`
+这是元类的关键方法，用于创建类。它的参数是固定的：
+
+cls:
+当前元类自身。
+在调用时，Python 会把元类的自身类作为第一个参数传入。
+name:
+即类名称（字符串）。
+bases:
+当前类继承的父类元组。
+dct:
+类的属性字典（包括方法、属性、类变量等）。
+如果这些参数的数量或顺序改变，类创建时会导致运行时错误。
+
+`__init__(self, name, bases, dct)`
+该方法在类对象创建之后调用，用于初始化类对象。参数同样是固定的：
+
+self:
+当前类对象（不是元类本身，而是元类创建的类）。
+name:
+类名称（字符串）。
+bases:
+当前类继承的父类元组。
+dct:
+类的属性字典。
+
+对象创建流程
+1. ObjectMetaClass `__new__`
+2. ObjectMetaClass `__init__`
+3. ObjectMetaClass `__call__`
+4. Object `__new__`
+5. Object `__init__`
+```python
+class ObjectMetaClass(type):
+    def __init__(cls, name, bases, dict):
+        print('Object Meta Class __init__')
+        super().__init__(name, bases, dict)
+        # type.__init__(cls, name, bases, dict)
+
+    def __new__(kcls, name, bases, dict):
+        print('Object Meta Class __new__')
+        return super().__new__(kcls, name, bases, dict)
+
+    def __call__(cls, *args, **kwargs):
+        print('Object Meta Class __call__')
+        return super().__call__( *args, **kwargs)
+
+class Object(object, metaclass=ObjectMetaClass):
+    def __init__(self):
+        print('Object __init__')
+
+    def __new__(cls, *args, **kwargs):
+        print('Object __init__')
+        return super().__new__(cls,*args,**kwargs)
+
+    def func(self):
+        pass
+
+obj = Object()
+```
+
+```python
+
+```
